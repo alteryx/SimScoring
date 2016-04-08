@@ -4,8 +4,8 @@
   <GuiSettings Html="SimScoringGui.html" Icon="SimScoringIcon.png" SDKVersion="10.1">
     <InputConnections>
       <Connection Name="Model" AllowMultiple="False" Optional="False" Type="Connection" Label="M"/>
-      <Connection Name="Validation" AllowMultiple="False" Optional="False" Type="Connection" Label="V"/>
-      <Connection Name="Simulation" AllowMultiple="False" Optional="True" Type="Connection" Label="S"/>
+      <Connection Name="Validation" AllowMultiple="False" Optional="True" Type="Connection" Label="V"/>
+      <Connection Name="Simulation" AllowMultiple="False" Optional="False" Type="Connection" Label="S"/>
     </InputConnections>
     <OutputConnections>
       <Connection Name="Data" AllowMultiple="False" Optional="True" Type="Connection" Label="D"/>
