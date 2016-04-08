@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="49" width="694" height="336" />
+        <Position x="54" y="54" width="934" height="335" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -34,12 +34,12 @@
       <ChildNodes>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="76" y="131" width="59" height="59" />
+            <Position x="76" y="135" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
             <Annotation DisplayMode="0">
-              <Name>numRecords</Name>
+              <Name>num.records</Name>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -47,7 +47,7 @@
         </Node>
         <Node ToolID="10">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="76" y="251" width="59" height="59" />
+            <Position x="76" y="255" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -60,7 +60,7 @@
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="64" y="83.00005" width="72" height="40" />
+            <Position x="64" y="87.00005" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -80,7 +80,7 @@
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="232" y="131" width="59" height="59" />
+            <Position x="232" y="135" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -93,7 +93,7 @@
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="220" y="83" width="72" height="40" />
+            <Position x="220" y="87" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -113,7 +113,7 @@
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="232" y="251" width="59" height="59" />
+            <Position x="232" y="255" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -126,7 +126,7 @@
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="376" y="131" width="59" height="59" />
+            <Position x="376" y="135" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -139,7 +139,7 @@
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="364" y="83.00002" width="72" height="40" />
+            <Position x="364" y="87.00002" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -159,7 +159,7 @@
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-            <Position x="568" y="131" width="59" height="59" />
+            <Position x="568" y="135" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -172,7 +172,7 @@
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="508" y="251" width="59" height="59" />
+            <Position x="508" y="255" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -185,7 +185,7 @@
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="652" y="251" width="59" height="59" />
+            <Position x="652" y="255" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -198,7 +198,7 @@
         </Node>
         <Node ToolID="43">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="556" y="83.00002" width="72" height="40" />
+            <Position x="556" y="87.00002" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -218,7 +218,7 @@
         </Node>
         <Node ToolID="44">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="508" y="335" width="72" height="40" />
+            <Position x="508" y="339" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -238,7 +238,7 @@
         </Node>
         <Node ToolID="45">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="652" y="335" width="72" height="40" />
+            <Position x="652" y="339" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -256,26 +256,26 @@
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="70">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="678" y="126" width="59" height="59" />
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+            <Position x="786" y="131" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
             <Annotation DisplayMode="0">
-              <Name>seed</Name>
+              <Name>displaySeed</Name>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="71">
+        <Node ToolID="76">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="666" y="78" width="72" height="40" />
+            <Position x="762" y="83" width="84" height="48" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Text>Set seed</Text>
+              <Text>Should a new seed be set?</Text>
               <Font name="Segoe UI" size="8.25" style="0" />
               <TextColor name="Black" />
               <FillColor name="White" />
@@ -289,11 +289,70 @@
             </Annotation>
           </Properties>
         </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="906" y="83" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Random seed</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="918" y="131" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>seed</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="918" y="239" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="786" y="263" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54.00002" y="461.9999" width="1555" height="970.0001" />
+        <Position x="54.00002" y="465.9999" width="1723" height="970.0001" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -311,7 +370,7 @@
       <ChildNodes>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="64.00009" y="490.9999" width="72" height="28" />
+            <Position x="64.00009" y="494.9999" width="72" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -331,7 +390,7 @@
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-            <Position x="76" y="803" />
+            <Position x="76" y="807" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -339,7 +398,7 @@
               <Name>Validation</Name>
               <Abbrev>V</Abbrev>
               <ShowFieldMap value="False" />
-              <Optional value="False" />
+              <Optional value="True" />
               <FileInput>
                 <Configuration>
                   <Passwords />
@@ -365,7 +424,7 @@
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="64.00002" y="766.9999" width="96" height="28" />
+            <Position x="64.00002" y="770.9999" width="96" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -385,7 +444,7 @@
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="64.00003" y="1319" width="96" height="28" />
+            <Position x="64.00003" y="1323" width="96" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -405,7 +464,7 @@
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-            <Position x="78" y="1363" />
+            <Position x="78" y="1367" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -413,7 +472,7 @@
               <Name>Simulation</Name>
               <Abbrev>S</Abbrev>
               <ShowFieldMap value="False" />
-              <Optional value="True" />
+              <Optional value="False" />
               <FileInput>
                 <Configuration>
                   <Passwords />
@@ -427,9 +486,6 @@
               <DefaultAnnotationText>SABR_sim_data.yxdb</DefaultAnnotationText>
               <Left value="True" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="SLG" source="R-DATA:" type="Double" />
@@ -443,7 +499,7 @@
         </Node>
         <Node ToolID="8">
           <GuiSettings>
-            <Position x="484" y="695" />
+            <Position x="484" y="699" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -475,7 +531,7 @@
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="268" y="707.0001" />
+            <Position x="270" y="719" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -501,7 +557,7 @@
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="268" y="911" />
+            <Position x="268" y="915" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -527,7 +583,7 @@
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="256" y="875" width="72" height="28" />
+            <Position x="256" y="879" width="72" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -547,7 +603,7 @@
         </Node>
         <Node ToolID="16">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="256" y="659" width="72" height="28" />
+            <Position x="256" y="663" width="72" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -567,7 +623,7 @@
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="784" y="803" />
+            <Position x="784" y="807" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="True">
@@ -611,7 +667,7 @@
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="604" y="695" />
+            <Position x="604" y="699" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -636,7 +692,7 @@
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="472.0001" y="634.9999" width="72" height="52" />
+            <Position x="472.0001" y="638.9999" width="72" height="52" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -656,7 +712,7 @@
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="592" y="647" width="72" height="40" />
+            <Position x="592" y="651" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -676,7 +732,7 @@
         </Node>
         <Node ToolID="21">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="772" y="743" width="72" height="52" />
+            <Position x="772" y="747" width="72" height="52" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -696,7 +752,7 @@
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="928" y="803" />
+            <Position x="928" y="807" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -721,7 +777,7 @@
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="916" y="743" width="72" height="52" />
+            <Position x="916" y="747" width="72" height="52" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -741,7 +797,7 @@
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxRPluginGui.R">
-            <Position x="1252" y="983" />
+            <Position x="1252" y="987" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -792,7 +848,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="916" y="575" />
+            <Position x="916" y="579" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -821,7 +877,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-            <Position x="75.99997" y="539.0001" />
+            <Position x="75.99997" y="543.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -854,7 +910,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="30">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-            <Position x="388" y="1103" />
+            <Position x="546" y="1031" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -876,17 +932,17 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-            <Position x="220" y="1103" />
+            <Position x="222" y="1103" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <GroupFields orderChanged="False" />
               <Mode>First</Mode>
-              <N>100</N>
+              <N>1</N>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>First 100</DefaultAnnotationText>
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
             <MetaInfo connection="Output">
@@ -902,7 +958,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="32">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="256" y="1067" width="132" height="28" />
+            <Position x="256" y="1071" width="132" height="28" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -922,7 +978,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="33">
           <GuiSettings>
-            <Position x="472" y="1355" />
+            <Position x="472" y="1359" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -955,7 +1011,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1036" y="803" />
+            <Position x="1036" y="807" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -980,7 +1036,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="700.0001" y="1355" />
+            <Position x="700.0001" y="1359" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1005,12 +1061,12 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-            <Position x="1540" y="983" />
+            <Position x="1708" y="987" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Name>Data</Name>
-              <Abbrev>D</Abbrev>
+              <Name>Output39</Name>
+              <Abbrev />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -1022,7 +1078,7 @@ write.Alteryx(results_df, 1)
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1410" y="991" />
+            <Position x="1410" y="995" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="True">
@@ -1044,7 +1100,6 @@ write.Alteryx(results_df, 1)
               <RecordInfo>
                 <Field name="SLG" source="R-DATA:" type="Double" />
                 <Field name="OBP" source="R-DATA:" type="Double" />
-                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
                 <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
               </RecordInfo>
             </MetaInfo>
@@ -1052,7 +1107,6 @@ write.Alteryx(results_df, 1)
               <RecordInfo>
                 <Field name="SLG" source="R-DATA:" type="Double" />
                 <Field name="OBP" source="R-DATA:" type="Double" />
-                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
                 <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
                 <Field name="Field_1" source="R-DATA:" type="Double" />
               </RecordInfo>
@@ -1065,9 +1119,168 @@ write.Alteryx(results_df, 1)
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
         </Node>
-        <Node ToolID="69">
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+            <Position x="318" y="1103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <DetourRight value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="TextInput:" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="TextInput:" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+        </Node>
+        <Node ToolID="72">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="798" y="1219" />
+            <Position x="546" y="1115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="seed" type="Int16" size="2" expression="1234" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>seed=1234</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="Formula: 1234" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="666" y="1115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="seed" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="seed" source="Formula: 1234" type="Int16" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+            <Position x="774" y="1067" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="seed" source="Formula: 1234" type="Int16" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+            <Position x="546" y="1223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Formula</Mode>
+              <Expression>[Name]!="seed"</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1542" y="1007" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+                <Field name="Field_1" source="R-DATA:" type="Double" />
+                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1182" y="1067" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1082,10 +1295,7 @@ write.Alteryx(results_df, 1)
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="SLG" source="R-DATA:" type="Double" />
-                <Field name="OBP" source="R-DATA:" type="Double" />
                 <Field name="seed" source="Formula: [seed]+1" type="Int16" />
-                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -1143,9 +1353,37 @@ write.Alteryx(results_df, 1)
       <Origin ToolID="4" Connection="Output" />
       <Destination ToolID="12" Connection="Input" />
     </Connection>
+    <Connection name="#1">
+      <Origin ToolID="75" Connection="Question" />
+      <Destination ToolID="80" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="78" Connection="Question" />
+      <Destination ToolID="79" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="79" Connection="Action" />
+      <Destination ToolID="72" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Right" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="80" Connection="Action" />
+      <Destination ToolID="70" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
     <Connection Wireless="True">
       <Origin ToolID="4" Connection="Question" />
       <Destination ToolID="40" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
@@ -1157,11 +1395,7 @@ write.Alteryx(results_df, 1)
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="31" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="69" Connection="Input" />
+      <Destination ToolID="81" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="8" Connection="Output" />
@@ -1188,15 +1422,11 @@ write.Alteryx(results_df, 1)
       <Destination ToolID="68" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="69" Connection="Output" />
+      <Origin ToolID="81" Connection="Output" />
       <Destination ToolID="68" Connection="Left" />
     </Connection>
     <Connection name="mult">
       <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection name="seed">
-      <Origin ToolID="30" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
     </Connection>
     <Connection name="error">
@@ -1207,9 +1437,17 @@ write.Alteryx(results_df, 1)
       <Origin ToolID="38" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
     </Connection>
+    <Connection name="seed">
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
     <Connection>
-      <Origin ToolID="31" Connection="Output" />
-      <Destination ToolID="30" Connection="Input" />
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="74" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="33" Connection="Output" />
@@ -1217,6 +1455,26 @@ write.Alteryx(results_df, 1)
     </Connection>
     <Connection>
       <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="82" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="82" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Left" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
       <Destination ToolID="39" Connection="Input" />
     </Connection>
   </Connections>
@@ -1239,7 +1497,7 @@ write.Alteryx(results_df, 1)
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>numRecords</Name>
+        <Name>num.records</Name>
         <Value />
         <IsNumeric value="True" />
       </Constant>
@@ -1258,6 +1516,12 @@ write.Alteryx(results_df, 1)
       <Constant>
         <Namespace>Question</Namespace>
         <Name>targetVariable</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>displaySeed</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -1319,7 +1583,7 @@ column	1</DynamicConfiguration>
               <Mode>Simple</Mode>
               <Variable />
               <Replace value="False" />
-              <Destination>14/SelectFields/SelectField[@field='Wins']/@field</Destination>
+              <Destination>14/SelectFields/SelectField[@field='R_G']/@field</Destination>
             </Action>
             <Action>
               <Type>UpdateRawXml</Type>
@@ -1331,6 +1595,26 @@ column	1</DynamicConfiguration>
   &lt;/SelectFields&gt;'</Expression>
               <Destination>12</Destination>
               <OuterXml value="False" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="79" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>72/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="80" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>70/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
             </Action>
           </True>
         </NoCondition>
@@ -1362,8 +1646,8 @@ column	1</DynamicConfiguration>
             </Question>
             <Question>
               <Type>NumericUpDown</Type>
-              <Description>The number of records to score</Description>
-              <Name>numRecords</Name>
+              <Description>The number of records to score at a time</Description>
+              <Name>num.records</Name>
               <ToolId value="9" />
               <Minimum value="1" />
               <Maximum value="1000000000" />
@@ -1411,14 +1695,23 @@ column	1</DynamicConfiguration>
               <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
             </Question>
             <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Should set new seed?</Description>
+              <Name>displaySeed</Name>
+              <ToolId value="75" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
               <Type>NumericUpDown</Type>
               <Description>Set seed</Description>
               <Name>seed</Name>
-              <ToolId value="70" />
+              <ToolId value="78" />
               <Minimum value="0" />
-              <Maximum value="1000000" />
+              <Maximum value="100" />
               <Increment value="1" />
-              <Default value="1234" />
+              <Default value="50" />
               <Decimals value="0" />
             </Question>
           </Questions>
