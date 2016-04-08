@@ -13,7 +13,7 @@ This repo contains the **Simulation Scoring** tool. Shown below is a brief descr
 | app.css                           | Custom style sheet for Gui.html                   |
 | Gui/overrides.yaml                | Configuration to override widget properties       |
 | Gui/layout.html                   | Layout for organizing widgets in Gui.html         |
-| Supporting_Macros\SimScoring.yxmc | Macro backend                                     |
+| Supporting_Macros\\SimScoring.yxmc | Macro backend                                     |
 
 ### Installation
 
