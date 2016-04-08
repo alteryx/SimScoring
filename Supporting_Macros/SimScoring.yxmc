@@ -1,0 +1,1449 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="49" width="694" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>INTERFACE</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#defe9c" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="76" y="131" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>numRecords</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="76" y="251" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="64" y="83.00005" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Number of records</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="232" y="131" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>per.iter</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="220" y="83" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Samples per iteration</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="232" y="251" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="376" y="131" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>results.name</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="364" y="83.00002" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Results name</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="568" y="131" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>targetVariable</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="508" y="251" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="652" y="251" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="556" y="83.00002" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Model Target</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="508" y="335" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target Update</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="652" y="335" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Predictors Update</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="678" y="126" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>seed</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="666" y="78" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Set seed</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54.00002" y="461.9999" width="1555" height="970.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MACRO</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="64.00009" y="490.9999" width="72" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Model</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="76" y="803" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="True" />
+              <Name>Validation</Name>
+              <Abbrev>V</Abbrev>
+              <ShowFieldMap value="False" />
+              <Optional value="False" />
+              <FileInput>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\SABR_Validation.yxdb</File>
+                  <FormatSpecificOptions />
+                </Configuration>
+              </FileInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>validation</Name>
+              <DefaultAnnotationText>SABR_Validation.yxdb</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="R_G" source="R-DATA:" type="Double" />
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OPS" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="64.00002" y="766.9999" width="96" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Validation Data</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="64.00003" y="1319" width="96" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Simulation Data</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="78" y="1363" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="True" />
+              <Name>Simulation</Name>
+              <Abbrev>S</Abbrev>
+              <ShowFieldMap value="False" />
+              <Optional value="True" />
+              <FileInput>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\SABR_sim_data.yxdb</File>
+                  <FormatSpecificOptions />
+                </Configuration>
+              </FileInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>simulation</Name>
+              <DefaultAnnotationText>SABR_sim_data.yxdb</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="TextInput:" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="484" y="695" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="score field">Estimates</Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value" />
+              <Value name="original percent">2.0</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="R_G" source="R-DATA:" type="Double" />
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OPS" source="R-DATA:" type="Double" />
+                <Field name="Estimates" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="268" y="707.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="R_G" source="R-DATA:" type="Double" />
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OPS" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="268" y="911" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="R_G" selected="True" rename="target_var" />
+                <SelectField field="Wins" selected="False" rename="target_var" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="target_var" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="256" y="875" width="72" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="256" y="659" width="72" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Predictors</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="784" y="803" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_SLG" selected="False" />
+                    <SelectField field="Left_OPS" selected="False" />
+                    <SelectField field="Left_Estimates" selected="True" rename="actual" />
+                    <SelectField field="Right_target_var" selected="True" rename="expected" />
+                    <SelectField field="Right_Wins" selected="False" rename="expected" type="Double" size="8" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="Estimates" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="actual" source="R-DATA:" type="Double" />
+                <Field name="expected" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="target_var" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="604" y="695" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Estimates" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Estimates" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="472.0001" y="634.9999" width="72" height="52" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Score validation data</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="592" y="647" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Isolate score results</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="772" y="743" width="72" height="52" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Merge actual with expected</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="928" y="803" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="error" type="Double" size="8" expression="[actual]-[expected]" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>error=[actual]-[expected]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="actual" source="R-DATA:" type="Double" />
+                <Field name="expected" source="R-DATA:" type="Double" />
+                <Field name="error" source="Formula: [actual]-[expected]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="916" y="743" width="72" height="52" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Error = actual - expected</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxRPluginGui.R">
+            <Position x="1252" y="983" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RScript><![CDATA[#########################
+#### HELPER FUNCTIONS ###
+#########################
+
+sample_df <- function(df, n, replace = TRUE, ...){
+  df[sample(1:NROW(df), n, replace = replace, ...),]
+}
+
+
+#########################
+#### ALTERYX R CODE #####
+#########################
+
+errors <- read.Alteryx("error", mode="data.frame")
+sim_data <- read.Alteryx("sim", mode="data.frame")
+mult <- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
+seed <- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
+
+set.seed(seed)
+
+new_df <- as.data.frame(rep(unlist(sim_data),mult))
+names(new_df) = c("simulated")
+new_df$errors <- sample_df(errors, nrow(new_df))
+new_df$results <- new_df$simulated-new_df$errors
+results_df <- new_df[c("results")]
+names(results_df) <- c('%Question.results.name%')
+#write.Alteryx(new_df[c("results")], 1)
+write.Alteryx(results_df, 1)
+
+]]></RScript>
+              <UseFullUpdate value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output1">
+              <RecordInfo>
+                <Field name="Field_1" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="916" y="575" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Count" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="75.99997" y="539.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="True" />
+              <Name>Model</Name>
+              <Abbrev>M</Abbrev>
+              <ShowFieldMap value="False" />
+              <Optional value="False" />
+              <FileInput>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\SABR_object.yxdb</File>
+                  <FormatSpecificOptions />
+                </Configuration>
+              </FileInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>model</Name>
+              <DefaultAnnotationText>SABR_object.yxdb</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+            <Position x="388" y="1103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Formula</Mode>
+              <Expression>[Name]=="seed"</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="seed" source="TextInput:" type="Int16" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="220" y="1103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields orderChanged="False" />
+              <Mode>First</Mode>
+              <N>100</N>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 100</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="TextInput:" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="256" y="1067" width="132" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Get seed</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings>
+            <Position x="472" y="1355" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="score field">Score</Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value" />
+              <Value name="original percent">2.0</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="R-DATA:" type="Int32" />
+                <Field name="OPS" source="R-DATA:" type="Double" />
+                <Field name="Score" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1036" y="803" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="error" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="error" source="Formula: [actual]-[expected]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="700.0001" y="1355" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Score" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Score" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="1540" y="983" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Data</Name>
+              <Abbrev>D</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1410" y="991" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+                <Field name="Field_1" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="Field_1" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="798" y="1219" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="seed" type="Int16" size="2" expression="[seed]+1" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>seed=[seed]+1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Question" />
+      <Destination ToolID="10" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="10" Connection="Action" />
+      <Destination ToolID="8" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="8" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="8" Connection="Right Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="26" Connection="Question" />
+      <Destination ToolID="28" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="28" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="41" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="42" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="41" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="42" Connection="Action" />
+      <Destination ToolID="12" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="4" Connection="Question" />
+      <Destination ToolID="40" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="33" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="33" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output1" />
+      <Destination ToolID="68" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="68" Connection="Left" />
+    </Connection>
+    <Connection name="mult">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="seed">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="error">
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="sim">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>numRecords</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>per.iter</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>results.name</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>targetVariable</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>seed</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Simulation Scoring</Name>
+      <Description>Simulation Scoring</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName>Prescriptive</CategoryName>
+      <SearchTags />
+      <Author>Dylan Blanchard</Author>
+      <Company>Alteryx, Inc.</Company>
+      <Copyright>Alteryx, Inc.</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="10" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>8/Value[@name='num.records']</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="28" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>25/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="41" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>14/SelectFields/SelectField[@field='Wins']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateRawXml</Type>
+              <Description />
+              <ToolId value="42" />
+              <Expression>'  &lt;SelectFields&gt;
+    &lt;SelectField field="' + EscapeXMLMetacharacters([#1]) + '" selected="False" /&gt;
+    &lt;SelectField field="*Unknown" selected="True" /&gt;
+  &lt;/SelectFields&gt;'</Expression>
+              <Destination>12</Destination>
+              <OuterXml value="False" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Right Input</Description>
+              <Name>model</Name>
+              <ToolId value="29" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>validation</Description>
+              <Name>validation</Name>
+              <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (4)</Description>
+              <Name>simulation</Name>
+              <ToolId value="7" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>The number of records to score</Description>
+              <Name>numRecords</Name>
+              <ToolId value="9" />
+              <Minimum value="1" />
+              <Maximum value="1000000000" />
+              <Increment value="1" />
+              <Default value="256000" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>How many samples from error distribution per iteration</Description>
+              <Name>per.iter</Name>
+              <ToolId value="26" />
+              <Minimum value="1" />
+              <Maximum value="1000000" />
+              <Increment value="1" />
+              <Default value="1" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Name results of score simulation</Description>
+              <Name>results.name</Name>
+              <ToolId value="34" />
+              <Default>Score</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (39)</Description>
+              <Name>Macro Output (39)</Name>
+              <ToolId value="39" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Select target variable</Description>
+              <Name>targetVariable</Name>
+              <ToolId value="40" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="0" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Set seed</Description>
+              <Name>seed</Name>
+              <ToolId value="70" />
+              <Minimum value="0" />
+              <Maximum value="1000000" />
+              <Increment value="1" />
+              <Default value="1234" />
+              <Decimals value="0" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="8" Selected="True" />
+        <Tool ToolId="29" Selected="True" />
+        <Tool ToolId="33" Selected="True" />
+        <Tool ToolId="39" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
