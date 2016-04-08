@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="54" width="934" height="335" />
+        <Position x="54" y="55" width="934" height="334" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -39,7 +39,7 @@
           <Properties>
             <Configuration />
             <Annotation DisplayMode="0">
-              <Name>num.records</Name>
+              <Name>numRecords</Name>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -352,7 +352,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54.00002" y="465.9999" width="1723" height="970.0001" />
+        <Position x="54.00002" y="466.9999" width="1723" height="969.0001" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1497,7 +1497,7 @@ write.Alteryx(results_df, 1)
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>num.records</Name>
+        <Name>numRecords</Name>
         <Value />
         <IsNumeric value="True" />
       </Constant>
@@ -1647,7 +1647,7 @@ column	1</DynamicConfiguration>
             <Question>
               <Type>NumericUpDown</Type>
               <Description>The number of records to score at a time</Description>
-              <Name>num.records</Name>
+              <Name>numRecords</Name>
               <ToolId value="9" />
               <Minimum value="1" />
               <Maximum value="1000000000" />
@@ -1705,7 +1705,7 @@ column	1</DynamicConfiguration>
             </Question>
             <Question>
               <Type>NumericUpDown</Type>
-              <Description>Set seed</Description>
+              <Description>Set Random Seed</Description>
               <Name>seed</Name>
               <ToolId value="78" />
               <Minimum value="0" />
