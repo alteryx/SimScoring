@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDLL="Macro" EngineDLLEntryPoint="Supporting_Macros/SimScoring.yxmc" SDKVersion="10.1"/>
+  <GuiSettings Html="SimScoringGui.html" Icon="SimScoringIcon.png" SDKVersion="10.1">
+    <InputConnections>
+      <Connection Name="Model" AllowMultiple="False" Optional="False" Type="Connection" Label="M"/>
+      <Connection Name="Validation" AllowMultiple="False" Optional="False" Type="Connection" Label="V"/>
+      <Connection Name="Simulation" AllowMultiple="False" Optional="True" Type="Connection" Label="S"/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Data" AllowMultiple="False" Optional="True" Type="Connection" Label="D"/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <NameIsFileName>False</NameIsFileName>
+      <Name>Simulation Scoring</Name>
+      <Description>Simulation Scoring</Description>
+      <ToolInDb>False</ToolInDb>
+      <CategoryName>Prescriptive</CategoryName>
+      <Author>Dylan Blanchard</Author>
+      <Company>Alteryx, Inc.</Company>
+      <Copyright>Alteryx, Inc.</Copyright>
+      <DescriptionLink></DescriptionLink>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
