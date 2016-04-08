@@ -1065,8 +1065,8 @@ write.Alteryx(results_df, 1)
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Name>Output39</Name>
-              <Abbrev />
+              <Name>Data</Name>
+              <Abbrev>D</Abbrev>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
