@@ -1,10 +1,13 @@
 <form>
   <fieldset>
     <legend>Simulation Scoring</legend>
-    {{ numRecords }}
+    {{ num.records }}
     {{ per.iter }}
     {{ results.name }}
     {{ targetVariable }}
+    <div id='display-seed'>
+      {{ displaySeed }}
+    </div>
     <div id='input-seed'>
       {{ seed }}
     </div>
