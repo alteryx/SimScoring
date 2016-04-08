@@ -13,7 +13,7 @@ This repo contains the **Simulation Scoring** tool. Shown below is a brief descr
 | app.css                           | Custom style sheet for Gui.html                   |
 | Gui/overrides.yaml                | Configuration to override widget properties       |
 | Gui/layout.html                   | Layout for organizing widgets in Gui.html         |
-| Supporting_Macros\\SimScoring.yxmc | Macro backend                                     |
+| Supporting_Macros\\SimScoring.yxmc | Macro backend                                    |
 
 ### Installation
 
@@ -27,13 +27,13 @@ Clone this repo using RStudio or the command line. Use branches to work on featu
 
 The `source` files that will be modified directly include
 
-1. Supporting_Macros\SimScoring.yxmc (backend)
+1. Supporting_Macros\\SimScoring.yxmc (backend)
 2. Gui/overrides.yaml                (gui)
 3. Gui/layout.html                   (gui)
 4. app.min.js                        (gui)
 5. app.css                           (gui)
 
-Whenever you manipulate one of these source files, you would need to run two functions from the `AlteryxRhelper` package to update everything.
+Whenever you manipulate one of these source files, you would need to run two functions from the `AlteryxRhelper` package to update everything. Before running any of these functions, make sure to set `options(alteryx.path = "<path to alteryx directory>")`
 
 1. `createPluginFromMacro(".")` will auto generate Config.xml and Gui.html files.
 2. `updateHtmlPlugin(".")` will install the plugin in the `Alteryx` directory.
