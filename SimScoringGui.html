@@ -21,32 +21,38 @@ SimScoring
     
 <!--  numRecords  -->
 <label>The number of records to score at a time</label>
-<alteryx-pluginwidget type="NumericSpinner" default="256000" minimum="1" maximum="1000000000" step="1" id="numRecords" dataName="numRecords"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="256000" minimum="1" maximum="1000000000" step="1" dataName="numRecords"></alteryx-pluginwidget>
   
 
     
 <!--  per.iter  -->
 <label>How many samples from error distribution per iteration</label>
-<alteryx-pluginwidget type="NumericSpinner" default="1" minimum="1" maximum="1000000" step="1" id="per.iter" dataName="per.iter"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="1" minimum="1" maximum="1000000" step="1" dataName="per.iter"></alteryx-pluginwidget>
   
 
     
 <!--  results.name  -->
 <label>Name results of score simulation</label>
-<alteryx-pluginwidget type="TextBox" password="false" id="results.name" dataName="results.name"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="TextBox" password="false" dataName="results.name"></alteryx-pluginwidget>
   
 
     
 <!--  targetVariable  -->
 <label>Select target variable</label>
-<alteryx-pluginwidget type="DropDown" dataType="FieldSelector" inputNumber="1" connectionNumber="0" fieldType="All" id="targetVariable" dataName="targetVariable"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="DropDown" dataType="FieldSelector" inputNumber="1" connectionNumber="0" fieldType="All" dataName="targetVariable"></alteryx-pluginwidget>
+  
+
+    
+<!--  isGLM  -->
+<label></label>
+<alteryx-pluginwidget type="CheckBox" text="Model is GLM" default="FALSE" dataName="isGLM"></alteryx-pluginwidget>
   
 
     <div id='display-seed'>
       
 <!--  displaySeed  -->
 <label></label>
-<alteryx-pluginwidget type="CheckBox" text="Should set new seed?" default="FALSE" id="displaySeed" dataName="displaySeed"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="CheckBox" text="Should set new seed?" default="FALSE" dataName="displaySeed"></alteryx-pluginwidget>
   
 
     </div>
@@ -54,7 +60,7 @@ SimScoring
       
 <!--  seed  -->
 <label>Set Random Seed</label>
-<alteryx-pluginwidget type="NumericSpinner" default="50" minimum="0" maximum="100" step="1" id="seed" dataName="seed"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="50" minimum="0" maximum="100" step="1" dataName="seed"></alteryx-pluginwidget>
   
 
     </div>
