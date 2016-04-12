@@ -1,11 +1,15 @@
 <form>
   <fieldset>
     <legend>Simulation Scoring</legend>
+    {{ results.name }}
     {{ numRecords }}
     {{ per.iter }}
-    {{ results.name }}
-    {{ targetVariable }}
-    {{ isGLM }}
+    <div id="glm-checkbox" style='display:none;'>
+      {{ isGLM }}
+    </div>
+    <div id="target-variable">
+      {{ targetVariable }}
+    </div>
     <div id='display-seed'>
       {{ displaySeed }}
     </div>
