@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="78.00015" y="53" width="1293" height="350" />
+        <Position x="78.00015" y="54" width="1293" height="349" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -463,7 +463,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="660" width="3619" height="1317" />
+        <Position x="54" y="662" width="3619" height="1315" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -481,7 +481,7 @@
       <ChildNodes>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="64" y="700.9999" width="237.0001" height="1049" />
+            <Position x="64" y="701.9999" width="237.0001" height="1048" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -718,7 +718,7 @@
         </Node>
         <Node ToolID="98">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1776" y="1449" width="588" height="518" />
+            <Position x="1776" y="1450" width="588" height="517" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -808,6 +808,10 @@ mapfxn <- function(x) {
 	write.Alteryx(df, 1)
 }
 
+if(!any(class(model)=="glm") && !any(class(model)=="lm")) {
+	stop("Model object is not glm or lm. Connect a validation dataset.")
+}
+set.seed(seed)
 mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
 
 
@@ -819,11 +823,6 @@ mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
-                <MetaInfo connection="Output1">
-                  <RecordInfo>
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
             </Node>
@@ -894,7 +893,7 @@ mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
         </Node>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="450.0003" y="1065" width="616.9999" height="343" />
+            <Position x="450.0003" y="1066" width="616.9999" height="342" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -916,7 +915,7 @@ mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <DetourRight value="True" />
+                  <DetourRight value="False" />
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
@@ -1049,7 +1048,7 @@ From data or interface</Text>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="seed" source="TextInput:" type="Int16" />
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
@@ -1083,7 +1082,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="97">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1638" y="692.9999" width="1006" height="618.0001" />
+            <Position x="1638" y="693.9999" width="1006" height="617.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1424,6 +1423,11 @@ process &lt;- function(...) {
 	write.Alteryx(errorScore, 1)
 }
 
+model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
+if(any(class(model)=="glm") || any(class(model)=="lm")) {
+	stop("Model object is lm or glm. Disconnect validation dataset.")
+}
+
 lapply(1:mult, FUN = process)</RScript>
                   <UseFullUpdate value="False" />
                 </Configuration>
@@ -1432,11 +1436,6 @@ lapply(1:mult, FUN = process)</RScript>
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
-                <MetaInfo connection="Output1">
-                  <RecordInfo>
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
             </Node>
@@ -1613,7 +1612,7 @@ lapply(1:mult, FUN = process)</RScript>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="2756" y="1209" width="907" height="402" />
+            <Position x="2756" y="1210" width="907" height="401" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1858,7 +1857,7 @@ lapply(1:mult, FUN = process)</RScript>
                   <Expression_Init>1</Expression_Init>
                   <Expression_Cond>_RowCount_ &lt;= 10</Expression_Cond>
                   <Expression_Loop>_RowCount_ + 1</Expression_Loop>
-                  <RecordCount value="10" />
+                  <RecordCount value="0" />
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
@@ -1936,7 +1935,7 @@ lapply(1:mult, FUN = process)</RScript>
         </Node>
         <Node ToolID="101">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1316" y="689" width="148.0841" height="1102" />
+            <Position x="1316" y="690" width="140.0796" height="1101" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2057,12 +2056,12 @@ lapply(1:mult, FUN = process)</RScript>
                 </Annotation>
                 <MetaInfo connection="Left">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="seed" source="TextInput:" type="Int16" />
                   </RecordInfo>
                 </MetaInfo>
                 <MetaInfo connection="Right">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="seed" source="TextInput:" type="Int16" />
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
@@ -2334,6 +2333,10 @@ lapply(1:mult, FUN = process)</RScript>
     </Connection>
     <Connection name="sim">
       <Origin ToolID="121" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="model">
+      <Origin ToolID="86" Connection="Left" />
       <Destination ToolID="24" Connection="Input" />
     </Connection>
     <Connection name="seed">
@@ -2706,7 +2709,7 @@ column	1</DynamicConfiguration>
               <Name>isGLM</Name>
               <ToolId value="84" />
               <Questions />
-              <Default value="True" />
+              <Default value="False" />
               <Collapsable value="False" />
             </Question>
           </Questions>
