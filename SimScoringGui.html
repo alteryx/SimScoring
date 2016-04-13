@@ -19,6 +19,12 @@ SimScoring
   <fieldset>
     <legend>Simulation Scoring</legend>
     
+<!--  results.name  -->
+<label>Name results of score simulation</label>
+<alteryx-pluginwidget type="TextBox" password="false" id="results.name" dataName="results.name"></alteryx-pluginwidget>
+  
+
+    
 <!--  numRecords  -->
 <label>The number of records to score at a time</label>
 <alteryx-pluginwidget type="NumericSpinner" default="256000" minimum="1" maximum="1000000000" step="1" id="numRecords" dataName="numRecords"></alteryx-pluginwidget>
@@ -30,24 +36,22 @@ SimScoring
 <alteryx-pluginwidget type="NumericSpinner" default="1" minimum="1" maximum="1000000" step="1" id="per.iter" dataName="per.iter"></alteryx-pluginwidget>
   
 
-    
-<!--  results.name  -->
-<label>Name results of score simulation</label>
-<alteryx-pluginwidget type="TextBox" password="false" id="results.name" dataName="results.name"></alteryx-pluginwidget>
-  
-
-    
-<!--  targetVariable  -->
-<label>Select target variable</label>
-<alteryx-pluginwidget type="DropDown" dataType="FieldSelector" inputNumber="1" connectionNumber="0" fieldType="All" id="targetVariable" dataName="targetVariable"></alteryx-pluginwidget>
-  
-
-    
+    <div id="glm-checkbox" style='display:none;'>
+      
 <!--  isGLM  -->
 <label></label>
 <alteryx-pluginwidget type="CheckBox" text="Model is GLM" default="FALSE" id="isGLM" dataName="isGLM"></alteryx-pluginwidget>
   
 
+    </div>
+    <div id="target-variable">
+      
+<!--  targetVariable  -->
+<label>Select target variable</label>
+<alteryx-pluginwidget type="DropDown" dataType="FieldSelector" inputNumber="1" connectionNumber="0" fieldType="All" id="targetVariable" dataName="targetVariable"></alteryx-pluginwidget>
+  
+
+    </div>
     <div id='display-seed'>
       
 <!--  displaySeed  -->
