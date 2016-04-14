@@ -823,6 +823,11 @@ mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
+                <MetaInfo connection="Output1">
+                  <RecordInfo>
+                    <Field name="Field_1" source="R-DATA:" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
             </Node>
@@ -1519,18 +1524,13 @@ lapply(1:mult, FUN = process)</RScript>
               <Properties>
                 <Configuration>
                   <Mode>Formula</Mode>
-                  <Expression>[Name]=="predsScore" or [Name] == "predsScore_1"</Expression>
+                  <Expression>[Name]=="predsScore" or [Name] == "predsScore_1" or [Name] == "simScore_Yes"</Expression>
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="predsScore" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
             </Node>
@@ -1567,18 +1567,13 @@ lapply(1:mult, FUN = process)</RScript>
               <Properties>
                 <Configuration>
                   <Mode>Formula</Mode>
-                  <Expression>[Name]=="simScore" or [Name] == "simScore_1"</Expression>
+                  <Expression>[Name]=="simScore" or [Name] == "simScore_1" or [Name] == "simScore_Yes"</Expression>
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="simScore" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
             </Node>
@@ -1857,7 +1852,7 @@ lapply(1:mult, FUN = process)</RScript>
                   <Expression_Init>1</Expression_Init>
                   <Expression_Cond>_RowCount_ &lt;= 10</Expression_Cond>
                   <Expression_Loop>_RowCount_ + 1</Expression_Loop>
-                  <RecordCount value="0" />
+                  <RecordCount value="10" />
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
