@@ -18,7 +18,7 @@ This repo contains the **Simulation Scoring** tool. Shown below is a brief descr
 ### Installation
 
 1. Download https://github.com/alteryx/SimScoring/archive/master.zip.
-2. Rename `.zip` to `.yxi`.
+2. Rename `SimScoring-master.zip` to `SimScoring.yxi`.
 3. Open in Alteryx to complete installation.
 
 ### Development
