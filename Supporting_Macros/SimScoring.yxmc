@@ -1038,17 +1038,7 @@ From data or interface</Text>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <RScript>readInputs &lt;- function(inputNames){
-  anchors &lt;- inputNames
-  inputs &lt;- setNames(lapply(anchors, read.Alteryx), inputNames)
-  Filter(function(d){NROW(d) &gt; 0}, inputs)
-}
-
-inputNames = c('validation', 'model')
-inputs &lt;- readInputs(inputNames)
-print(names(inputs))
-
-#' Repurpose {stats} package 'simulate' function to work on new data
+              <RScript>#' Repurpose {stats} package 'simulate' function to work on new data
 #'
 #' @param object model object to score from
 #' @param nsim number of draws per record
