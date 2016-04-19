@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="78.00015" y="54" width="1293" height="349" />
+        <Position x="78.00015" y="54" width="1186" height="345" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -40,19 +40,6 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>numRecords</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="10">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="100.0001" y="259" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -126,7 +113,7 @@
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="400.0002" y="139" width="59" height="59" />
+            <Position x="402" y="138" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -170,32 +157,6 @@
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="41">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="532.0001" y="259" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="42">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="676.0001" y="259" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
         <Node ToolID="43">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
             <Position x="580.0001" y="91.00002" width="72" height="40" />
@@ -203,46 +164,6 @@
           <Properties>
             <Configuration>
               <Text>Model Target</Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor name="White" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="44">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="532.0001" y="343" width="72" height="40" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Text>Target Update</Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor name="White" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="45">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="678.0001" y="334" width="72" height="40" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Text>Predictors Update</Text>
               <Font name="Segoe UI" size="8.25" style="0" />
               <TextColor name="Black" />
               <FillColor name="White" />
@@ -381,74 +302,9 @@
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="88">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="1074" y="238" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="90">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="1194" y="238" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="94">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="1074" y="334" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="95">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="1194" y="334" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
         <Node ToolID="113">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
             <Position x="258" y="330" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="117">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="1302" y="234" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -463,7 +319,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="662" width="3619" height="1315" />
+        <Position x="54" y="673.9999" width="3619" height="1086" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -716,186 +572,6 @@
             </Node>
           </ChildNodes>
         </Node>
-        <Node ToolID="98">
-          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1776" y="1450" width="588" height="517" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Caption>Right Side Detours (GLM)</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="150" />
-              <Disabled value="False" />
-              <Folded value="False" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <ChildNodes>
-            <Node ToolID="87">
-              <GuiSettings Plugin="AlteryxRPluginGui.R">
-                <Position x="2094" y="1738" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <RScript><![CDATA[#' Repurpose {stats} package 'simulate' function to work on new data
-#'
-#' @param object model object to score from
-#' @param nsim number of draws per record
-#' @param new_values new data to score against model
-#' @return function taking new data and simulating scores
-#' @export
-simulateGLM <- function(object, nsim) {
-  function(new_data) {
-    new_preds <- predict(object, new_data)
-    object$fitted.values <- new_preds
-    simulate(object = object, nsim = nsim, seed = NULL)
-  }
-}
-
-#' Map reduce code to help with processing of chunks
-#'
-#' @param nameInput if data is coming from Alteryx, name of the input data is coming from
-#' @param chunkSize maximal size of chunk
-#' @param totalSize total size of data
-#' @param data dataframe outside of Alterx, not dataframe if inside Alteryx
-#' @return function taking two function arguments - a map function and a reduce function and applying them as expected
-#' @export
-#' @examples
-#'    mapReduce(NULL, 15, 100, data.frame(x = 1:100))(sum, function(x) {sum(unlist(x))})
-#'    mapReduce(NULL, 15, 100, data.frame(x = 1:100))(function(x) {sum(x^2)}, function(x) {sum(unlist(x))})
-mapReduce <- function(nameInput, chunkSize, totalSize, data) {
-  function(map, reduce) {
-    chunkCount <- ceiling(totalSize/chunkSize)
-    getData <- function(chunkNumber) {
-      if (class(data) != "data.frame") {
-        if(chunkNumber == 1) {
-          read.Alteryx.First(nameInput, chunkSize)
-        } else {
-          read.Alteryx.Next(nameInput)
-        }
-      } else {
-        data[((chunkNumber-1)*chunkSize+1):(min(totalSize, chunkSize*chunkNumber)),]
-      }
-    }
-    processChunk <- function(chunkNumber) {
-      map(getData(chunkNumber))
-    }
-    if(!is.null(reduce)) {
-      mappings <- lapply(1:chunkCount, processChunk)
-      reduce(mappings)
-    } else {
-      lapply(1:chunkCount, processChunk)
-    }
-  }
-}
-
-mult <- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
-seed <- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
-model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
-totalCount <- as.integer(unlist(read.Alteryx("numRecords", mode="list"))[1])
-chunkSize <- as.integer('%Question.numRecords%')
-if(is.na(chunkSize)) {
-	chunkSize <- 256000
-}
-
-mapfxn <- function(x) {
-	simData <- unlist(simulateGLM(model, mult)(x))
-	df <- data.frame(score = simData)
-	names(df) <- '%Question.results.name%'
-	write.Alteryx(df, 1)
-}
-
-if(!any(class(model)=="glm") && !any(class(model)=="lm")) {
-	stop("Model object is not glm or lm. Connect a validation dataset.")
-}
-set.seed(seed)
-mapReduce("sim", chunkSize, totalCount, NULL) (mapfxn, NULL)
-
-
-]]></RScript>
-                  <UseFullUpdate value="False" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output1">
-                  <RecordInfo>
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
-            </Node>
-            <Node ToolID="103">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2034" y="1618" width="180" height="28" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Connections from all detour tools</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="104">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2034" y="1666" width="180" height="40" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Code for samplling from error distribution of GLMs</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="116">
-              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-                <Position x="1926" y="1758" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <SummarizeFields>
-                    <SummarizeField field="SLG" action="Count" rename="Count" />
-                  </SummarizeFields>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="Count" source="Summarize: Count - SLG" type="Int64" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-            </Node>
-          </ChildNodes>
-        </Node>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
             <Position x="450.0003" y="1066" width="616.9999" height="342" />
@@ -1085,526 +761,6 @@ From data or interface</Text>
             </Node>
           </ChildNodes>
         </Node>
-        <Node ToolID="97">
-          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1638" y="693.9999" width="1006" height="617.0001" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Caption>Left Side Detours (nonGLM)</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-              <Disabled value="False" />
-              <Folded value="False" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <ChildNodes>
-            <Node ToolID="12">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="1672" y="797" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <OrderChanged value="False" />
-                  <SelectFields>
-                    <SelectField field="*Unknown" selected="True" />
-                  </SelectFields>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="R_G" source="R-DATA:" type="Double" />
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OPS" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-            </Node>
-            <Node ToolID="16">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1648" y="761.0004" width="72" height="28" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Predictors</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="19">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1778" y="721.9999" width="72" height="52" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Score validation data</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="8">
-              <GuiSettings>
-                <Position x="1782" y="786" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Value name="score field">predsScore</Value>
-                  <Value name="is oversampled">False</Value>
-                  <Value name="oversampled value" />
-                  <Value name="original percent">2.0</Value>
-                  <Value name="log y">False</Value>
-                  <Value name="prediction.interval">False</Value>
-                  <Value name="interval.level">95</Value>
-                  <Value name="append.xdf">False</Value>
-                  <Value name="num.records">256000</Value>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="R_G" source="R-DATA:" type="Double" />
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OPS" source="R-DATA:" type="Double" />
-                    <Field name="predsScore" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings Macro="Predictive Tools\Score.yxmc" />
-            </Node>
-            <Node ToolID="20">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1898" y="734" width="72" height="40" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Isolate score results</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="14">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="1672" y="1001" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <OrderChanged value="False" />
-                  <SelectFields>
-                    <SelectField field="R_G" selected="True" rename="target_var" />
-                    <SelectField field="Wins" selected="False" rename="target_var" />
-                    <SelectField field="*Unknown" selected="False" />
-                  </SelectFields>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="target_var" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-            </Node>
-            <Node ToolID="15">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1650" y="958.0001" width="72" height="28" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Target</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="17">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="2090" y="890" />
-              </GuiSettings>
-              <Properties>
-                <Configuration joinByRecordPos="True">
-                  <SelectConfiguration>
-                    <Configuration outputConnection="Join">
-                      <OrderChanged value="False" />
-                      <SelectFields>
-                        <SelectField field="Right_target_var" selected="True" rename="expected" />
-                        <SelectField field="Left_Estimates" selected="True" rename="actual" />
-                        <SelectField field="Left_SLG" selected="False" />
-                        <SelectField field="Left_OPS" selected="False" />
-                        <SelectField field="Right_Wins" selected="False" rename="expected" type="Double" size="8" />
-                        <SelectField field="*Unknown" selected="True" />
-                      </SelectFields>
-                    </Configuration>
-                  </SelectConfiguration>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="Estimates" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Join">
-                  <RecordInfo>
-                    <Field name="actual" source="R-DATA:" type="Double" />
-                    <Field name="expected" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="target_var" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-            </Node>
-            <Node ToolID="21">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2078" y="830" width="72" height="52" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Merge actual with expected</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="23">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2222" y="830" width="172" height="52" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Error = actual - expected</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="22">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-                <Position x="2234" y="890" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <FormulaFields>
-                    <FormulaField field="error" type="Double" size="8" expression="[actual]-[expected]" />
-                  </FormulaFields>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText>error=[actual]-[expected]</DefaultAnnotationText>
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="actual" source="R-DATA:" type="Double" />
-                    <Field name="expected" source="R-DATA:" type="Double" />
-                    <Field name="error" source="Formula: [actual]-[expected]" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-            </Node>
-            <Node ToolID="37">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="2342" y="890" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <OrderChanged value="False" />
-                  <SelectFields>
-                    <SelectField field="error" selected="True" />
-                    <SelectField field="*Unknown" selected="False" />
-                  </SelectFields>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="error" source="Formula: [actual]-[expected]" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-            </Node>
-            <Node ToolID="24">
-              <GuiSettings Plugin="AlteryxRPluginGui.R">
-                <Position x="2562" y="1066" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <RScript>#########################
-#### ALTERYX R CODE #####
-#########################
-
-errors &lt;- unlist(read.Alteryx("error", mode="data.frame"))
-sim_data &lt;- unlist(read.Alteryx("sim", mode="data.frame"))
-mult &lt;- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
-seed &lt;- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
-
-set.seed(seed)
-nameSample &lt;- c('%Question.results.name%')
-
-size &lt;- length(sim_data)
-
-process &lt;- function(...) {
-  errorSample &lt;- sample(errors, length(size), replace = TRUE)
-  errorScore &lt;- data.frame(score = sim_data + errorSample)
-	names(errorScore) = '%Question.results.name%'
-	write.Alteryx(errorScore, 1)
-}
-
-model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
-if(any(class(model)=="glm") || any(class(model)=="lm")) {
-	stop("Model object is lm or glm. Disconnect validation dataset.")
-}
-
-lapply(1:mult, FUN = process)</RScript>
-                  <UseFullUpdate value="False" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
-            </Node>
-            <Node ToolID="33">
-              <GuiSettings>
-                <Position x="1770" y="1242" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Value name="score field">simScore</Value>
-                  <Value name="is oversampled">False</Value>
-                  <Value name="oversampled value" />
-                  <Value name="original percent">2.0</Value>
-                  <Value name="log y">False</Value>
-                  <Value name="prediction.interval">False</Value>
-                  <Value name="interval.level">95</Value>
-                  <Value name="append.xdf">False</Value>
-                  <Value name="num.records">256000</Value>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OBP" source="R-DATA:" type="Double" />
-                    <Field name="seed" source="R-DATA:" type="Int32" />
-                    <Field name="OPS" source="R-DATA:" type="Double" />
-                    <Field name="simScore" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings Macro="Predictive Tools\Score.yxmc" />
-            </Node>
-            <Node ToolID="105">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1758" y="1198" width="216" height="28" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Score incoming data</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="106">
-              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2526" y="982" width="108" height="52" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Text>Add samples from error distribution to each score results</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-            </Node>
-            <Node ToolID="118">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="1890" y="786" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Mode>Formula</Mode>
-                  <Expression>[Name]=="predsScore" or [Name] == "predsScore_1" or [Name] == "simScore_Yes"</Expression>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
-            </Node>
-            <Node ToolID="119">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
-                <Position x="1986" y="798" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <RenameMode>Formula</RenameMode>
-                  <Fields orderChanged="False">
-                    <Field name="predsScore" />
-                    <Field name="*Unknown" />
-                  </Fields>
-                  <Expression>"Estimates"</Expression>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="Estimates" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
-            </Node>
-            <Node ToolID="120">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="1878" y="1242" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <Mode>Formula</Mode>
-                  <Expression>[Name]=="simScore" or [Name] == "simScore_1" or [Name] == "simScore_Yes"</Expression>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
-            </Node>
-            <Node ToolID="121">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
-                <Position x="1974" y="1242" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <RenameMode>Formula</RenameMode>
-                  <Fields orderChanged="False">
-                    <Field name="simScore" />
-                    <Field name="*Unknown" />
-                  </Fields>
-                  <Expression>"Score"</Expression>
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="Score" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
-            </Node>
-          </ChildNodes>
-        </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
             <Position x="2756" y="1210" width="907" height="401" />
@@ -1672,12 +828,12 @@ lapply(1:mult, FUN = process)</RScript>
                     <Field name="SLG" source="R-DATA:" type="Double" />
                     <Field name="OBP" source="R-DATA:" type="Double" />
                     <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
+                    <Field name="Score" source="R-DATA:" type="Double" />
                   </RecordInfo>
                 </MetaInfo>
                 <MetaInfo connection="Right">
                   <RecordInfo>
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
+                    <Field name="Score" source="R-DATA:" type="Double" />
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
@@ -1709,7 +865,7 @@ lapply(1:mult, FUN = process)</RScript>
                     <Field name="SLG" source="R-DATA:" type="Double" />
                     <Field name="OBP" source="R-DATA:" type="Double" />
                     <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
+                    <Field name="Score" source="R-DATA:" type="Double" />
                     <Field name="seed" source="Formula: [seed]+1" type="Int16" />
                   </RecordInfo>
                 </MetaInfo>
@@ -1738,25 +894,6 @@ lapply(1:mult, FUN = process)</RScript>
                 </MetaInfo>
               </Properties>
               <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-            </Node>
-            <Node ToolID="107">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
-                <Position x="2790" y="1294" />
-              </GuiSettings>
-              <Properties>
-                <Configuration />
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Output">
-                  <RecordInfo>
-                    <Field name="Field_1" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
             </Node>
             <Node ToolID="108">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -1928,188 +1065,268 @@ lapply(1:mult, FUN = process)</RScript>
             </Node>
           </ChildNodes>
         </Node>
-        <Node ToolID="101">
-          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1316" y="690" width="140.0796" height="1101" />
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxRPluginGui.R">
+            <Position x="1470" y="994" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Caption>Model-type detouring</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-              <Disabled value="False" />
-              <Folded value="False" />
+              <RScript>#' Repurpose {stats} package 'simulate' function to work on new data
+#'
+#' @param object model object to score from
+#' @param nsim number of draws per record
+#' @param new_values new data to score against model
+#' @return function taking new data and simulating scores
+#' @export
+simulateGLM &lt;- function(object, nsim) {
+  function(new_data) {
+    new_preds &lt;- predict(object, new_data)
+    object$fitted.values &lt;- new_preds
+    simulate(object = object, nsim = nsim, seed = NULL)
+  }
+}
+
+#' Map reduce code to help with processing of chunks
+#'
+#' @param nameInput if data is coming from Alteryx, name of the input data is coming from
+#' @param chunkSize maximal size of chunk
+#' @param totalSize total size of data
+#' @param data dataframe outside of Alterx, not dataframe if inside Alteryx
+#' @return function taking two function arguments - a map function and a reduce function and applying them as expected
+#' @export
+#' @examples
+#'    mapReduce(NULL, 15, 100, data.frame(x = 1:100))(sum, function(x) {sum(unlist(x))})
+#'    mapReduce(NULL, 15, 100, data.frame(x = 1:100))(function(x) {sum(x^2)}, function(x) {sum(unlist(x))})
+mapReduce &lt;- function(nameInput, chunkSize, totalSize, data) {
+  function(map, reduce) {
+    chunkCount &lt;- ceiling(totalSize/chunkSize)
+    getData &lt;- function(chunkNumber) {
+      if (class(data) != "data.frame") {
+        if(chunkNumber == 1) {
+          read.Alteryx.First(nameInput, chunkSize)
+        } else {
+          read.Alteryx.Next(nameInput)
+        }
+      } else {
+        data[((chunkNumber-1)*chunkSize+1):(min(totalSize, chunkSize*chunkNumber)),]
+      }
+    }
+    processChunk &lt;- function(chunkNumber) {
+      map(getData(chunkNumber))
+    }
+    if(!is.null(reduce)) {
+      mappings &lt;- lapply(1:chunkCount, processChunk)
+      reduce(mappings)
+    } else {
+      lapply(1:chunkCount, processChunk)
+    }
+  }
+}
+
+scoreName &lt;- '%Question.results.name%'
+mult &lt;- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
+seed &lt;- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
+model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
+totalCount &lt;- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
+chunkSize &lt;- as.integer('%Question.numRecords%')
+if(is.na(chunkSize)) {
+	chunkSize &lt;- 256000
+}
+isGLM &lt;- '%Question.isGLM%'=="True"
+tarVarName &lt;- '%Question.targetVariable%'
+
+validation &lt;- NULL
+if(!isGLM) {
+	validation &lt;- read.Alteryx("validation")
+}
+
+
+
+#' Code to execute core of simulation scoring code 
+#' 
+#' @param model model object to score from
+#' @param isGLM boolean predicting whether object will be glm/lm class
+#' @param number of draws from error distribution for each record
+#' @param totalCOuntSim total number of records to be scored
+#' @param validation validation data incoming
+#' @param seed random seed
+#' @param sim simulation data to score
+#' @param scoreName name to give to scored variable
+#' @param chunkSize maximal chunk size for scored data
+#' @return nothing - function writes out score df to Alteryx
+scoreProcess &lt;- function(model, isGLM, mult, totalCountSim, validation, seed, chunkSize, scoreName) {
+  scoreErrorCheck(model, isGLM)
+  set.seed(seed)
+  tarVarName &lt;- getTarVarName(model)
+  mapfxn &lt;- function(x) {
+    if(isGLM) {
+      simData &lt;- unlist(simulateGLM(model, mult)(x))
+    } else {
+      predVal &lt;- predict(model, validation)
+			if(any(names(predVal)=="Yes")) {
+				predVal &lt;- predVal$Yes
+			}
+			if(any(names(predVal)=="YES")) {
+				predVal &lt;- predVal$YES
+			}
+			if(any(names(predVal)=="yes")) {
+				predVal &lt;- predVal$yes
+			}
+			predVal &lt;- as.vector(predVal)
+      actualVal &lt;- convertTo01(as.vector(validation[,tarVarName]))
+      errors &lt;- actualVal - predVal
+      simData &lt;- unlist(simulateNonGLM(model, mult, errors) (x))
+    }
+    df &lt;- data.frame(score = simData)
+    names(df) &lt;- scoreName
+    write.Alteryx(df, 1)
+  }
+  mapReduce("sim", chunkSize, totalCountSim, NULL) (mapfxn, NULL)
+}
+
+
+#' Error check to ensure model class matches "isGLM"
+#' 
+#' @param model model to check
+#' @param isGLM boolean to compare
+#' @return no return - just throws error if mismatch
+scoreErrorCheck &lt;- function(model, isGLM) {
+  glmClass &lt;- any(class(model)=="glm") || any(class(model)=="lm")	
+  if(isGLM &amp;&amp; !glmClass) {
+    stop("Model is not glm or lm. Connect a validation dataset.")
+  } 
+  if(!isGLM &amp;&amp; glmClass) {
+    stop("Model is glm or lm. Disconnect validation dataset.")
+  }
+}
+
+#' Extract target variable name from model object
+#' 
+#' @param model model from which to extract target variable
+#' @return string - name of model's target variable
+#' @export
+getTarVarName&lt;- function(model){
+  as.character(model$terms[[2]])
+}
+
+#' Simulation function assuming homoscedasticity
+#'
+#' @param object model object to score from
+#' @param nsim number of draws per record
+#' @param new_values new data to score against model
+#' @return function taking new data and simulating scores
+#' @export
+simulateNonGLM &lt;- function(object, nsim, errorVec) {
+  function(newdata) {
+		fullErrors &lt;- sample(errorVec, length(newdata)*nsim, replace = TRUE)
+		newPreds &lt;- as.vector(predict(object, newdata = newdata))
+    scores &lt;- rep(newPreds, nsim) + fullErrors
+    unlist(lapply(scores, FUN = getScore))
+  }
+}
+
+#' Helper function for simulateNonGLM for scores &lt; 0 or &gt; 1
+#' 
+#' @param x value to fix score of
+#' @return proper score
+getScore &lt;- function(x) {
+  median(c(0,x,1))
+}
+
+#' Generic method for converting vector to 0/1
+#' 
+#' @param vec vector to convert
+#' @return vector of 0/1
+#' @export
+convertTo01 &lt;- function(vec) {
+  UseMethod('convertTo01')
+}
+
+#' convert character of Yes/No vector to 0/1
+#' 
+#' @param vec vector to convert
+#' @return vector of 0/1
+#' @import stringr
+#' @export
+convertTo01.chr &lt;- function(vec) {
+  vec &lt;- tolower(str_trim(vec))
+  if(!any(vec == "yes") || !any(vec =="no")) {
+    stop("must be yes/no")
+  }
+  ifelse(vec=="yes", 1, 0)
+}
+
+
+
+#' convert character of Yes/No vector to 0/1
+#' 
+#' @param vec vector to convert
+#' @return vector of 0/1
+#' @import stringr
+#' @export
+convertTo01.character &lt;- function(vec) {
+  vec &lt;- tolower(str_trim(vec))
+  if(!any(vec == "yes") || !any(vec =="no")) {
+    stop("must be yes/no")
+  }
+  ifelse(vec=="yes", 1, 0)
+}
+
+#' Convert default vector to 0/1
+#' 
+#' @param vec vector to convert
+#' @return vector of 0/1
+#' @export
+convertTo01.default &lt;- function(vec) {
+  vec
+}
+
+
+
+
+scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)</RScript>
+              <UseFullUpdate value="False" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output1">
+              <RecordInfo>
+                <Field name="Score" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
-          <ChildNodes>
-            <Node ToolID="86">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="1338" y="862" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <DetourRight value="True" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
-                    <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
-                    <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
-            </Node>
-            <Node ToolID="89">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="1326" y="1030" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <DetourRight value="True" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="R_G" source="R-DATA:" type="Double" />
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OPS" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="R_G" source="R-DATA:" type="Double" />
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OPS" source="R-DATA:" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
-            </Node>
-            <Node ToolID="93">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="1326" y="1722" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <DetourRight value="True" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OBP" source="R-DATA:" type="Double" />
-                    <Field name="seed" source="TextInput:" type="Int16" />
-                    <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="SLG" source="R-DATA:" type="Double" />
-                    <Field name="OBP" source="R-DATA:" type="Double" />
-                    <Field name="seed" source="TextInput:" type="Int16" />
-                    <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
-            </Node>
-            <Node ToolID="92">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="1350" y="1486" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <DetourRight value="True" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="seed" source="TextInput:" type="Int16" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="seed" source="TextInput:" type="Int16" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
-            </Node>
-            <Node ToolID="102">
-              <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="1338" y="718" />
-              </GuiSettings>
-              <Properties>
-                <Configuration>
-                  <DetourRight value="True" />
-                </Configuration>
-                <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
-                </Annotation>
-                <MetaInfo connection="Left">
-                  <RecordInfo>
-                    <Field name="Count" source="TextInput:" type="Byte" />
-                  </RecordInfo>
-                </MetaInfo>
-                <MetaInfo connection="Right">
-                  <RecordInfo>
-                    <Field name="Count" source="TextInput:" type="Byte" />
-                  </RecordInfo>
-                </MetaInfo>
-              </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
-            </Node>
-          </ChildNodes>
+          <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+        </Node>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1302" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="SLG" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - SLG" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
       </ChildNodes>
     </Node>
   </Nodes>
   <Connections>
-    <Connection name="#1">
-      <Origin ToolID="9" Connection="Question" />
-      <Destination ToolID="10" Connection="Question" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="10" Connection="Action" />
-      <Destination ToolID="8" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="12" Connection="Output" />
-      <Destination ToolID="8" Connection="Left Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="86" Connection="Left" />
-      <Destination ToolID="8" Connection="Right Input" />
-    </Connection>
     <Connection name="#1">
       <Origin ToolID="26" Connection="Question" />
       <Destination ToolID="28" Connection="Question" />
@@ -2121,30 +1338,6 @@ lapply(1:mult, FUN = process)</RScript>
     <Connection name="#2" Wireless="True">
       <Origin ToolID="28" Connection="Action" />
       <Destination ToolID="25" Connection="Action" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="40" Connection="Question" />
-      <Destination ToolID="41" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="40" Connection="Question" />
-      <Destination ToolID="42" Connection="Question" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="41" Connection="Action" />
-      <Destination ToolID="14" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="89" Connection="Left" />
-      <Destination ToolID="14" Connection="Input" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="42" Connection="Action" />
-      <Destination ToolID="12" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="89" Connection="Left" />
-      <Destination ToolID="12" Connection="Input" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="75" Connection="Question" />
@@ -2170,69 +1363,9 @@ lapply(1:mult, FUN = process)</RScript>
       <Origin ToolID="31" Connection="Output" />
       <Destination ToolID="70" Connection="Input" />
     </Connection>
-    <Connection name="#1">
-      <Origin ToolID="84" Connection="Question" />
-      <Destination ToolID="88" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="84" Connection="Question" />
-      <Destination ToolID="90" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="84" Connection="Question" />
-      <Destination ToolID="94" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="84" Connection="Question" />
-      <Destination ToolID="95" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="84" Connection="Question" />
-      <Destination ToolID="117" Connection="Question" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="88" Connection="Action" />
-      <Destination ToolID="86" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="86" Connection="Input" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="90" Connection="Action" />
-      <Destination ToolID="89" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="89" Connection="Input" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="94" Connection="Action" />
-      <Destination ToolID="92" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="74" Connection="Output" />
-      <Destination ToolID="92" Connection="Input" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="95" Connection="Action" />
-      <Destination ToolID="93" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="93" Connection="Input" />
-    </Connection>
     <Connection name="#2" Wireless="True">
       <Origin ToolID="113" Connection="Action" />
       <Destination ToolID="112" Connection="Action" />
-    </Connection>
-    <Connection name="#2" Wireless="True">
-      <Origin ToolID="117" Connection="Action" />
-      <Destination ToolID="102" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="102" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
@@ -2242,36 +1375,36 @@ lapply(1:mult, FUN = process)</RScript>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="81" Connection="Input" />
     </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
     <Connection Wireless="True">
       <Origin ToolID="4" Connection="Question" />
       <Destination ToolID="40" Connection="Question Input" />
     </Connection>
-    <Connection>
-      <Origin ToolID="87" Connection="Output1" />
-      <Destination ToolID="107" Connection="Right" />
+    <Connection name="validation">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
     </Connection>
-    <Connection>
-      <Origin ToolID="24" Connection="Output1" />
-      <Destination ToolID="107" Connection="Left" />
+    <Connection name="model">
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
     </Connection>
-    <Connection name="numRecords">
+    <Connection name="mult">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection name="seed">
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection name="sim">
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection name="totalCountSim">
       <Origin ToolID="116" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
-    </Connection>
-    <Connection name="model" Wireless="True">
-      <Origin ToolID="86" Connection="Right" />
-      <Destination ToolID="87" Connection="Input" />
-    </Connection>
-    <Connection name="sim" Wireless="True">
-      <Origin ToolID="93" Connection="Right" />
-      <Destination ToolID="87" Connection="Input" />
-    </Connection>
-    <Connection name="seed" Wireless="True">
-      <Origin ToolID="92" Connection="Right" />
-      <Destination ToolID="87" Connection="Input" />
-    </Connection>
-    <Connection name="mult" Wireless="True">
-      <Origin ToolID="102" Connection="Right" />
       <Destination ToolID="87" Connection="Input" />
     </Connection>
     <Connection>
@@ -2303,58 +1436,6 @@ lapply(1:mult, FUN = process)</RScript>
       <Destination ToolID="114" Connection="Source" />
     </Connection>
     <Connection>
-      <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="118" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="14" Connection="Output" />
-      <Destination ToolID="17" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="119" Connection="Output" />
-      <Destination ToolID="17" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="17" Connection="Join" />
-      <Destination ToolID="22" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="22" Connection="Output" />
-      <Destination ToolID="37" Connection="Input" />
-    </Connection>
-    <Connection name="error">
-      <Origin ToolID="37" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection name="sim">
-      <Origin ToolID="121" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection name="model">
-      <Origin ToolID="86" Connection="Left" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection name="seed">
-      <Origin ToolID="92" Connection="Left" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection name="mult">
-      <Origin ToolID="102" Connection="Left" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="33" Connection="Output" />
-      <Destination ToolID="120" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="118" Connection="Output" />
-      <Destination ToolID="119" Connection="Targets" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="120" Connection="Output" />
-      <Destination ToolID="121" Connection="Targets" />
-    </Connection>
-    <Connection>
       <Origin ToolID="68" Connection="Join" />
       <Destination ToolID="82" Connection="Targets" />
     </Connection>
@@ -2367,28 +1448,16 @@ lapply(1:mult, FUN = process)</RScript>
       <Destination ToolID="39" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="107" Connection="Output" />
-      <Destination ToolID="68" Connection="Right" />
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="115" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="115" Connection="Output" />
       <Destination ToolID="68" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="114" Connection="Output" />
-      <Destination ToolID="115" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="86" Connection="Left" />
-      <Destination ToolID="33" Connection="Right Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="93" Connection="Left" />
-      <Destination ToolID="33" Connection="Left Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="93" Connection="Right" />
-      <Destination ToolID="116" Connection="Input" />
+      <Origin ToolID="87" Connection="Output1" />
+      <Destination ToolID="68" Connection="Right" />
     </Connection>
   </Connections>
   <Properties>
@@ -2411,19 +1480,19 @@ lapply(1:mult, FUN = process)</RScript>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>numRecords</Name>
-        <Value />
+        <Value>256000</Value>
         <IsNumeric value="True" />
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>per.iter</Name>
-        <Value />
+        <Value>10</Value>
         <IsNumeric value="True" />
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>results.name</Name>
-        <Value />
+        <Value>Score</Value>
         <IsNumeric value="False" />
       </Constant>
       <Constant>
@@ -2447,7 +1516,7 @@ lapply(1:mult, FUN = process)</RScript>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>isGLM</Name>
-        <Value />
+        <Value>True</Value>
         <IsNumeric value="False" />
       </Constant>
     </Constants>
@@ -2475,15 +1544,6 @@ lapply(1:mult, FUN = process)</RScript>
           <Description>(Always Run)</Description>
           <True>
             <Action>
-              <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="10" />
-              <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="False" />
-              <Destination>8/Value[@name='num.records']</Destination>
-            </Action>
-            <Action>
               <Type>Dynamic</Type>
               <Description />
               <ToolId value="28" />
@@ -2494,26 +1554,6 @@ lapply(1:mult, FUN = process)</RScript>
               <DynamicConfiguration>row	1
 column	1</DynamicConfiguration>
               <DefaultConfiguration value="True" />
-            </Action>
-            <Action>
-              <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="41" />
-              <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="False" />
-              <Destination>14/SelectFields/SelectField[@field='R_G']/@field</Destination>
-            </Action>
-            <Action>
-              <Type>UpdateRawXml</Type>
-              <Description />
-              <ToolId value="42" />
-              <Expression>'  &lt;SelectFields&gt;
-    &lt;SelectField field="' + EscapeXMLMetacharacters([#1]) + '" selected="False" /&gt;
-    &lt;SelectField field="*Unknown" selected="True" /&gt;
-  &lt;/SelectFields&gt;'</Expression>
-              <Destination>12</Destination>
-              <OuterXml value="False" />
             </Action>
             <Action>
               <Type>UpdateValue</Type>
@@ -2536,50 +1576,6 @@ column	1</DynamicConfiguration>
               <DefaultConfiguration value="True" />
             </Action>
             <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="88" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>86/DetourRight/@value</Destination>
-              <Mapping>Update Detour Direction from Question</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
-            </Action>
-            <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="90" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>89/DetourRight/@value</Destination>
-              <Mapping>Update Detour Direction from Question</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
-            </Action>
-            <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="94" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>92/DetourRight/@value</Destination>
-              <Mapping>Update Detour Direction from Question</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
-            </Action>
-            <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="95" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>93/DetourRight/@value</Destination>
-              <Mapping>Update Detour Direction from Question</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
-            </Action>
-            <Action>
               <Type>UpdateValue</Type>
               <Description />
               <ToolId value="113" />
@@ -2588,17 +1584,6 @@ column	1</DynamicConfiguration>
               <Replace value="True" />
               <ReplaceText>10</ReplaceText>
               <Destination>112/Expression_Cond</Destination>
-            </Action>
-            <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="117" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>102/DetourRight/@value</Destination>
-              <Mapping>Update Detour Direction from Question</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
             </Action>
           </True>
         </NoCondition>
@@ -2723,8 +1708,6 @@ column	1</DynamicConfiguration>
         <Tool ToolId="7" Selected="True" />
         <Tool ToolId="4" Selected="True" />
         <Tool ToolId="29" Selected="True" />
-        <Tool ToolId="8" Selected="True" />
-        <Tool ToolId="33" Selected="True" />
         <Tool ToolId="39" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
