@@ -20,26 +20,26 @@ SimScoring
     <legend>Simulation Scoring</legend>
     
 <!--  results.name  -->
-<label>Name results of score simulation</label>
+<label htmlFor="results.name">Name results of score simulation</label>
 <alteryx-pluginwidget type="TextBox" password="false" id="results.name" dataName="results.name"></alteryx-pluginwidget>
   
 
     
 <!--  numRecords  -->
-<label>The number of records to score at a time</label>
+<label htmlFor="numRecords">The number of records to score at a time</label>
 <alteryx-pluginwidget type="NumericSpinner" default="256000" minimum="1" maximum="1000000000" step="1" id="numRecords" dataName="numRecords"></alteryx-pluginwidget>
   
 
     
 <!--  per.iter  -->
-<label>How many samples from error distribution per iteration</label>
+<label htmlFor="per.iter">How many samples from error distribution per iteration</label>
 <alteryx-pluginwidget type="NumericSpinner" default="1" minimum="1" maximum="1000000" step="1" id="per.iter" dataName="per.iter"></alteryx-pluginwidget>
   
 
     <div id="glm-checkbox" style='display:none;'>
       
 <!--  isGLM  -->
-<label></label>
+<label htmlFor="isGLM"></label>
 <alteryx-pluginwidget type="CheckBox" text="Model is GLM" default="FALSE" id="isGLM" dataName="isGLM"></alteryx-pluginwidget>
   
 
@@ -47,7 +47,7 @@ SimScoring
     <div id='display-seed'>
       
 <!--  displaySeed  -->
-<label></label>
+<label htmlFor="displaySeed"></label>
 <alteryx-pluginwidget type="CheckBox" text="Should set new seed?" default="FALSE" id="displaySeed" dataName="displaySeed"></alteryx-pluginwidget>
   
 
@@ -55,7 +55,7 @@ SimScoring
     <div id='input-seed'>
       
 <!--  seed  -->
-<label>Set Random Seed</label>
+<label htmlFor="seed">Set Random Seed</label>
 <alteryx-pluginwidget type="NumericSpinner" default="50" minimum="0" maximum="100" step="1" id="seed" dataName="seed"></alteryx-pluginwidget>
   
 
