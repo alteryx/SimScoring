@@ -40,6 +40,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>numRecords</Name>
+              <AnnotationText>The number of records to score.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -73,6 +74,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>per.iter</Name>
+              <AnnotationText>The number of samples to select in each iteration.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -119,6 +121,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>results.name</Name>
+              <AnnotationText>The field name for the results generated.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -205,6 +208,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>seed</Name>
+              <AnnotationText>(optional) Set a random seed. This option will only be available in certain cases.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -341,6 +345,7 @@
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name>simulation</Name>
+                  <AnnotationText>__Simulation Input__ The simulation data to score.</AnnotationText>
                   <DefaultAnnotationText>SABR_sim_data.yxdb</DefaultAnnotationText>
                   <Left value="True" />
                 </Annotation>
@@ -422,6 +427,7 @@
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name>validation</Name>
+                  <AnnotationText>__Validation Input (optional)__ The validation dataset to use. This is optional.</AnnotationText>
                   <DefaultAnnotationText>SABR_Validation.yxdb</DefaultAnnotationText>
                   <Left value="True" />
                 </Annotation>
@@ -476,6 +482,7 @@
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name>model</Name>
+                  <AnnotationText>__Model Input__ The model to score</AnnotationText>
                   <DefaultAnnotationText>SABR_object.yxdb</DefaultAnnotationText>
                   <Left value="True" />
                 </Annotation>
@@ -757,6 +764,7 @@ From data or interface</Text>
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
+                  <AnnotationText>__D Output__ The scored data.</AnnotationText>
                   <DefaultAnnotationText />
                   <Left value="False" />
                 </Annotation>
@@ -1038,7 +1046,52 @@ From data or interface</Text>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <RScript>#' Repurpose {stats} package 'simulate' function to work on new data
+              <RScript>## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
+library(AlteryxRhelper)
+config &lt;- list(
+  displaySeed = checkboxInput('%Question.displaySeed%' , FALSE),
+  isGLM = checkboxInput('%Question.isGLM%' , FALSE),
+  numRecords = numericInput('%Question.numRecords%' , 256000),
+  per.iter = numericInput('%Question.per.iter%' , 1),
+  results.name = textInput('%Question.results.name%' , 'Score'),
+  seed = numericInput('%Question.seed%' , 50)
+)
+# options(alteryx.wd = '%Engine.WorkflowDirectory%')
+# options(alteryx.debug = config$debug)
+
+## Configuration ----
+
+#scoreName &lt;- '%Question.results.name%'
+# chunkSize &lt;- as.integer('%Question.numRecords%')
+# if(is.na(chunkSize)) {
+#   chunkSize &lt;- 256000
+# }
+#isGLM &lt;- '%Question.isGLM%'=="True"
+#mult &lt;- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
+#seed &lt;- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
+#tarVarName &lt;- '%Question.targetVariable%'
+# validation &lt;- NULL
+# if(!isGLM) {
+#   validation &lt;- read.Alteryx("validation")
+# }
+
+
+scoreName &lt;- config$results.name
+chunkSize &lt;- config$numRecords
+isGLM &lt;- config$isGLM
+mult &lt;- config$per.iter
+seed &lt;- config$seed
+
+## Inputs ----
+
+model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
+totalCount &lt;- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
+validation &lt;- if (!isGLM) read.Alteryx("validation") else NULL
+
+print(Sys.time())
+
+##----
+#' Repurpose {stats} package 'simulate' function to work on new data
 #'
 #' @param object model object to score from
 #' @param nsim number of draws per record
@@ -1089,25 +1142,6 @@ mapReduce &lt;- function(nameInput, chunkSize, totalSize, data) {
     }
   }
 }
-
-scoreName &lt;- '%Question.results.name%'
-mult &lt;- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
-seed &lt;- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
-model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
-totalCount &lt;- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
-chunkSize &lt;- as.integer('%Question.numRecords%')
-if(is.na(chunkSize)) {
-	chunkSize &lt;- 256000
-}
-isGLM &lt;- '%Question.isGLM%'=="True"
-tarVarName &lt;- '%Question.targetVariable%'
-
-validation &lt;- NULL
-if(!isGLM) {
-	validation &lt;- read.Alteryx("validation")
-}
-
-
 
 #' Code to execute core of simulation scoring code 
 #' 
@@ -1251,7 +1285,8 @@ convertTo01.default &lt;- function(vec) {
 
 
 
-scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)</RScript>
+scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName) 
+</RScript>
               <UseFullUpdate value="False" />
             </Configuration>
             <Annotation DisplayMode="0">
