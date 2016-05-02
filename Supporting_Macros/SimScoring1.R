@@ -41,5 +41,4 @@ model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
 totalCount <- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
 validation <- if (!isGLM) read.Alteryx("validation") else NULL
 
-
 scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)
