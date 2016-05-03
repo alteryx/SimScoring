@@ -16,9 +16,6 @@
           <DefaultAnnotationText>SABR_object.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -43,9 +40,6 @@
           <DefaultAnnotationText>SABR_sim_data.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="SLG" source="R-DATA:" type="Double" />
@@ -57,41 +51,13 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\SABR_Validation.yxdb</File>
-          <FormatSpecificOptions />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>SABR_Validation.yxdb</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="R_G" source="R-DATA:" type="Double" />
-            <Field name="SLG" source="R-DATA:" type="Double" />
-            <Field name="OPS" source="R-DATA:" type="Double" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
         <Position x="318" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2912_b0cb7136805343088955addbec18f85b_\Engine_4124_32b9c5618ef84d25ae3a5a9f43110af3_.yxdb</TempFile>
+          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_5928_b76f0ad0e2964197b9540fe7371bb54c_\Engine_12316_ced0c627249544bdbdeebe9e637ea9d8_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -116,8 +82,7 @@
         <Configuration>
           <Value name="seed">50</Value>
           <Value name="displaySeed">False</Value>
-          <Value name="targetVariable">R_G</Value>
-          <Value name="isGLM">False</Value>
+          <Value name="isGLM">True</Value>
           <Value name="per.iter">1</Value>
           <Value name="numRecords">256000</Value>
           <Value name="results.name">Score</Value>
@@ -130,6 +95,53 @@
       </Properties>
       <EngineSettings Macro="Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="Supporting_Macros/SimScoring.yxmc" />
     </Node>
+    <Node ToolID="35">
+      <GuiSettings>
+        <Position x="222" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="numRecords">256000</Value>
+          <Value name="per.iter">1</Value>
+          <Value name="results.name">Score</Value>
+          <Value name="displaySeed">False</Value>
+          <Value name="seed">50</Value>
+          <Value name="isGLM">True</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Data">
+          <RecordInfo>
+            <Field name="SLG" source="R-DATA:" type="Double" />
+            <Field name="OBP" source="R-DATA:" type="Double" />
+            <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+            <Field name="Score" source="R-DATA:" type="Double" />
+            <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="C:\Users\dblanchard\Documents\svn\DBlanchardSandbox\share_with_Debian_VM\git\SimScoring\Supporting_Macros\SimScoring.yxmc" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -141,12 +153,20 @@
       <Destination ToolID="34" Connection="Simulation" />
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="34" Connection="Validation" />
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="35" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="35" Connection="Simulation" />
     </Connection>
     <Connection>
       <Origin ToolID="34" Connection="Data" />
       <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Data" />
+      <Destination ToolID="36" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -160,14 +180,14 @@
     <DisableBrowse value="False" />
     <EnablePerformanceProfiling value="False" />
     <DisableAllOutput value="False" />
-    <ShowAllMacroMessages value="False" />
+    <ShowAllMacroMessages value="True" />
     <ShowConnectionStatusIsOn value="True" />
     <ShowConnectionStatusOnlyWhenRunning value="True" />
     <ZoomLevel value="0" />
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>TestWorkflow</Name>
+      <Name>TestScoring</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
