@@ -57,7 +57,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_5928_b76f0ad0e2964197b9540fe7371bb54c_\Engine_12316_ced0c627249544bdbdeebe9e637ea9d8_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4728_85b7fc62d0514e9f92ff09fd8f7740d2_\Engine_4944_5cd19466e5a2486a974d56ad5de9af44_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -74,7 +74,7 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="34">
+    <Node ToolID="37">
       <GuiSettings Plugin="SimScoring">
         <Position x="222" y="126" />
       </GuiSettings>
@@ -95,78 +95,19 @@
       </Properties>
       <EngineSettings Macro="Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="Supporting_Macros/SimScoring.yxmc" />
     </Node>
-    <Node ToolID="35">
-      <GuiSettings>
-        <Position x="222" y="270" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="numRecords">256000</Value>
-          <Value name="per.iter">1</Value>
-          <Value name="results.name">Score</Value>
-          <Value name="displaySeed">False</Value>
-          <Value name="seed">50</Value>
-          <Value name="isGLM">True</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Data">
-          <RecordInfo>
-            <Field name="SLG" source="R-DATA:" type="Double" />
-            <Field name="OBP" source="R-DATA:" type="Double" />
-            <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
-            <Field name="Score" source="R-DATA:" type="Double" />
-            <Field name="seed" source="Formula: [seed]+1" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings Macro="C:\Users\dblanchard\Documents\svn\DBlanchardSandbox\share_with_Debian_VM\git\SimScoring\Supporting_Macros\SimScoring.yxmc" />
-    </Node>
-    <Node ToolID="36">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="318" y="270" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="34" Connection="Model" />
+      <Destination ToolID="37" Connection="Model" />
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="34" Connection="Simulation" />
+      <Destination ToolID="37" Connection="Simulation" />
     </Connection>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="35" Connection="Model" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="35" Connection="Simulation" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="34" Connection="Data" />
+      <Origin ToolID="37" Connection="Data" />
       <Destination ToolID="31" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="35" Connection="Data" />
-      <Destination ToolID="36" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
