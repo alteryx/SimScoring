@@ -40,7 +40,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>numRecords</Name>
-              <AnnotationText>The number of records to score.</AnnotationText>
+              <AnnotationText>The tool can break the input data into chunks, scoring a chunk at a time, and thereby avoid R's in-memory processing limitation. This option controls the maximal number of records contained in each such chunk of data.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -74,7 +74,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>per.iter</Name>
-              <AnnotationText>The number of samples to select in each iteration.</AnnotationText>
+              <AnnotationText>The number of draws from the error distribution for each incoming record</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -121,7 +121,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>results.name</Name>
-              <AnnotationText>The field name for the results generated.</AnnotationText>
+              <AnnotationText>The field name for the results generated. The field name must start with a letter and may contain letters, numbers, and the special characters period(".") and underscore ("_"). No other special characters are allowed, and R is case sensitive.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -208,7 +208,7 @@
             <Configuration />
             <Annotation DisplayMode="0">
               <Name>seed</Name>
-              <AnnotationText>(optional) Set a random seed. This option will only be available in certain cases.</AnnotationText>
+              <AnnotationText>(optional) Set a random seed. This option will be hidden if there is a seed field in the data to be scored.</AnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
