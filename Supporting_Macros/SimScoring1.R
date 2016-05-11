@@ -1,5 +1,4 @@
 ## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
-library(AlteryxRhelper)
 library(AlteryxSim)
 config <- list(
   displaySeed = checkboxInput('%Question.displaySeed%' , FALSE),
