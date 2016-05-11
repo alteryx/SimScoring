@@ -1,4 +1,5 @@
 ## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
+library(AlteryxRhelper)
 library(AlteryxSim)
 config <- list(
   displaySeed = checkboxInput('%Question.displaySeed%' , FALSE),
@@ -8,9 +9,12 @@ config <- list(
   results.name = textInput('%Question.results.name%' , 'Score'),
   seed = numericInput('%Question.seed%' , 50)
 )
-options(alteryx.wd = '%Engine.WorkflowDirectory%')
-options(alteryx.debug = config$debug)
-##----
+
+scoreName <- config$results.name
+chunkSize <- config$numRecords
+isGLM <- config$isGLM
+mult <- config$per.iter
+seed <- config$seed
 
 ## Inputs ----
 
@@ -18,6 +22,8 @@ model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
 totalCount <- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
 validation <- if (!isGLM) read.Alteryx("validation") else NULL
 
-scoreProcess(model, config$isGLM, config$per.iter, totalCount, validation, 
-  config$seed, config$numRecords, config$results.name
-)
+if(AlteryxFullUpdate) {
+  write.AlteryxAddFieldMetaInfo(nOutput = 1, name = scoreName, fieldType = "Double", size = 8)
+} else {
+  scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)
+}
