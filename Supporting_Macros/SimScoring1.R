@@ -1,5 +1,4 @@
 ## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
-library(AlteryxRhelper)
 library(AlteryxSim)
 config <- list(
   displaySeed = checkboxInput('%Question.displaySeed%' , FALSE),
@@ -9,31 +8,9 @@ config <- list(
   results.name = textInput('%Question.results.name%' , 'Score'),
   seed = numericInput('%Question.seed%' , 50)
 )
-# options(alteryx.wd = '%Engine.WorkflowDirectory%')
-# options(alteryx.debug = config$debug)
-
-## Configuration ----
-
-#scoreName <- '%Question.results.name%'
-# chunkSize <- as.integer('%Question.numRecords%')
-# if(is.na(chunkSize)) {
-#   chunkSize <- 256000
-# }
-#isGLM <- '%Question.isGLM%'=="True"
-#mult <- as.integer(unlist(read.Alteryx("mult", mode="list"))[1])
-#seed <- as.integer(unlist(read.Alteryx("seed", mode="list"))[1])
-#tarVarName <- '%Question.targetVariable%'
-# validation <- NULL
-# if(!isGLM) {
-#   validation <- read.Alteryx("validation")
-# }
-
-
-scoreName <- config$results.name
-chunkSize <- config$numRecords
-isGLM <- config$isGLM
-mult <- config$per.iter
-seed <- config$seed
+options(alteryx.wd = '%Engine.WorkflowDirectory%')
+options(alteryx.debug = config$debug)
+##----
 
 ## Inputs ----
 
@@ -41,4 +18,6 @@ model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
 totalCount <- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
 validation <- if (!isGLM) read.Alteryx("validation") else NULL
 
-scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)
+scoreProcess(model, config$isGLM, config$per.iter, totalCount, validation, 
+  config$seed, config$numRecords, config$results.name
+)
