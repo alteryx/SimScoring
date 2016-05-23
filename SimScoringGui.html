@@ -26,12 +26,12 @@ SimScoring
     
 <!--  numRecords  -->
 <label for="numRecords">The number of records to score at a time</label>
-<alteryx-pluginwidget type="NumericSpinner" default="256000" minimum="1" maximum="1000000000" step="1" id="numRecords" dataName="numRecords"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="256000" min="1" max="1000000000" step="1" id="numRecords" dataName="numRecords"></alteryx-pluginwidget>
 
     
 <!--  per.iter  -->
 <label for="per.iter">How many samples from error distribution per iteration</label>
-<alteryx-pluginwidget type="NumericSpinner" default="1" minimum="1" maximum="1000000" step="1" id="per.iter" dataName="per.iter"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="1" min="1" max="1000000" step="1" id="per.iter" dataName="per.iter"></alteryx-pluginwidget>
 
     <div id="glm-checkbox" style='display:none;'>
       
@@ -51,7 +51,7 @@ SimScoring
       
 <!--  seed  -->
 <label for="seed">Set Random Seed</label>
-<alteryx-pluginwidget type="NumericSpinner" default="50" minimum="0" maximum="100" step="1" id="seed" dataName="seed"></alteryx-pluginwidget>
+<alteryx-pluginwidget type="NumericSpinner" default="50" min="0" max="100" step="1" id="seed" dataName="seed"></alteryx-pluginwidget>
 
     </div>
   </fieldset>
