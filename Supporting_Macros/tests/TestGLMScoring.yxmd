@@ -1,181 +1,18 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="10.5">
   <Nodes>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="696" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\Credit_Defaults_object.yxdb</File>
-          <FormatSpecificOptions />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Credit_Defaults_object.yxdb</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
-            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="2">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="222" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">../data/Credit_Defaults_sim_data.yxdb</File>
-          <FormatSpecificOptions />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Credit_Defaults_sim_data.yxdb</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-            <Field name="Duration" source="TextInput:" type="Byte" />
-            <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-            <Field name="Purpose" size="3" source="TextInput:" type="String" />
-            <Field name="Amount" source="TextInput:" type="Int16" />
-            <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-            <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-            <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-            <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-            <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-            <Field name="Length_Res" source="TextInput:" type="Byte" />
-            <Field name="Property" size="4" source="TextInput:" type="String" />
-            <Field name="Age" source="TextInput:" type="Byte" />
-            <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-            <Field name="Tenure" size="4" source="TextInput:" type="String" />
-            <Field name="Num_Loans" source="TextInput:" type="Byte" />
-            <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-            <Field name="Dependents" source="TextInput:" type="Byte" />
-            <Field name="Telephone" size="4" source="TextInput:" type="String" />
-            <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-            <Field name="Default" size="3" source="TextInput:" type="String" />
-            <Field name="Sample" size="10" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\Credit_Defaults_Validation.yxdb</File>
-          <FormatSpecificOptions />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Credit_Defaults_Validation.yxdb</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-            <Field name="Duration" source="TextInput:" type="Byte" />
-            <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-            <Field name="Purpose" size="3" source="TextInput:" type="String" />
-            <Field name="Amount" source="TextInput:" type="Int16" />
-            <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-            <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-            <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-            <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-            <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-            <Field name="Length_Res" source="TextInput:" type="Byte" />
-            <Field name="Property" size="4" source="TextInput:" type="String" />
-            <Field name="Age" source="TextInput:" type="Byte" />
-            <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-            <Field name="Tenure" size="4" source="TextInput:" type="String" />
-            <Field name="Num_Loans" source="TextInput:" type="Byte" />
-            <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-            <Field name="Dependents" source="TextInput:" type="Byte" />
-            <Field name="Telephone" size="4" source="TextInput:" type="String" />
-            <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-            <Field name="Default" size="3" source="TextInput:" type="String" />
-            <Field name="Sample" size="10" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="9">
-      <GuiSettings>
-        <Position x="222" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="numRecords">256000</Value>
-          <Value name="per.iter">1</Value>
-          <Value name="results.name">Score</Value>
-          <Value name="displaySeed">True</Value>
-          <Value name="seed">50</Value>
-          <Value name="isGLM">False</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Data">
-          <RecordInfo>
-            <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-            <Field name="Duration" source="TextInput:" type="Byte" />
-            <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-            <Field name="Purpose" size="3" source="TextInput:" type="String" />
-            <Field name="Amount" source="TextInput:" type="Int16" />
-            <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-            <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-            <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-            <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-            <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-            <Field name="Length_Res" source="TextInput:" type="Byte" />
-            <Field name="Property" size="4" source="TextInput:" type="String" />
-            <Field name="Age" source="TextInput:" type="Byte" />
-            <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-            <Field name="Tenure" size="4" source="TextInput:" type="String" />
-            <Field name="Num_Loans" source="TextInput:" type="Byte" />
-            <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-            <Field name="Dependents" source="TextInput:" type="Byte" />
-            <Field name="Telephone" size="4" source="TextInput:" type="String" />
-            <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-            <Field name="Default" size="3" source="TextInput:" type="String" />
-            <Field name="Sample" size="10" source="TextInput:" type="String" />
-            <Field name="Score" source="R-DATA:" type="Double" />
-            <Field name="seed" source="Formula: [seed]+1" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings Macro="..\SimScoring.yxmc" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="318" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_10044_db125bd857bd4f16ba3f21bd677e3ba2_\Engine_8336_b54184f5a5d9433092da5ef5be7cd650_.yxdb</TempFile>
-          <Layout>
-            <View1>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-          </Layout>
+          <Text>Tests for Simulation Score Tool for GLM Scoring</Text>
+          <Font name="Segoe UI" size="11.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="192" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -183,22 +20,19 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="16">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="318" y="102" />
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="372" height="28" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_10044_db125bd857bd4f16ba3f21bd677e3ba2_\Engine_8336_de0a76699bbb4ce8b5d16ccb60f3c1ca_.yxdb</TempFile>
-          <Layout>
-            <View1>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-          </Layout>
+          <Text>SABR Data</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="64" g="128" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -206,20 +40,17 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="19">
-      <GuiSettings Plugin="SimScoring">
-        <Position x="198" y="102" />
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="114" width="367" height="221" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="seed">50</Value>
-          <Value name="displaySeed">True</Value>
-          <Value name="isGLM">False</Value>
-          <Value name="per.iter">1</Value>
-          <Value name="numRecords">256000</Value>
-          <Value name="results.name">Score</Value>
+          <Caption>Workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -227,41 +58,116 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="Supporting_Macros/SimScoring.yxmc" />
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="64" y="143" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\SABR_object.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SABR_object.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="64" y="251" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\SABR_sim_data.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SABR_sim_data.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SLG" source="R-DATA:" type="Double" />
+                <Field name="OBP" source="R-DATA:" type="Double" />
+                <Field name="seed" source="TextInput:" type="Int16" />
+                <Field name="OPS" source="Formula: [OBP]+[SLG]" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="352" y="203" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_1104_6f97883967194552962e07a5c16e5212_\Engine_5320_afc199cb77444aa68447cf0f8a8409a3_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="208" y="203" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">50</Value>
+              <Value name="displaySeed">False</Value>
+              <Value name="isGLM">True</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+      </ChildNodes>
     </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="9" Connection="Model" />
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="46" Connection="Model" />
     </Connection>
     <Connection>
-      <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="9" Connection="Simulation" />
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="46" Connection="Simulation" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="9" Connection="Validation" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="19" Connection="Model" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="19" Connection="Simulation" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="19" Connection="Validation" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Data" />
-      <Destination ToolID="10" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="19" Connection="Data" />
-      <Destination ToolID="16" Connection="Input" />
+      <Origin ToolID="46" Connection="Data" />
+      <Destination ToolID="31" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
