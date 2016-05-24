@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="56" y="73" width="692" height="230" />
+        <Position x="64" y="55" width="692" height="229" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -34,7 +34,7 @@
       <ChildNodes>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="75.99987" y="135" width="59" height="59" />
+            <Position x="83.99987" y="116" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -48,7 +48,7 @@
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="66" y="102" width="72" height="40" />
+            <Position x="74" y="83" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -68,7 +68,7 @@
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="184.0001" y="135" width="59" height="59" />
+            <Position x="192.0001" y="116" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -82,7 +82,7 @@
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="174" y="102" width="84" height="40" />
+            <Position x="182" y="83" width="84" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -102,7 +102,7 @@
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="150" y="234" width="59" height="59" />
+            <Position x="158" y="215" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -115,7 +115,7 @@
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="293.9998" y="134" width="59" height="59" />
+            <Position x="301.9998" y="115" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -129,7 +129,7 @@
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="282" y="102" width="72" height="36" />
+            <Position x="290" y="83" width="72" height="36" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -149,7 +149,7 @@
         </Node>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-            <Position x="414" y="138" width="59" height="59" />
+            <Position x="422" y="119" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -162,7 +162,7 @@
         </Node>
         <Node ToolID="76">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="402" y="102" width="84" height="36" />
+            <Position x="410" y="83" width="84" height="36" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -182,7 +182,7 @@
         </Node>
         <Node ToolID="77">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="534" y="102" width="72" height="36" />
+            <Position x="542" y="83" width="72" height="36" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -202,7 +202,7 @@
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="546" y="138" width="59" height="59" />
+            <Position x="554" y="119" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -216,7 +216,7 @@
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="546" y="222" width="59" height="59" />
+            <Position x="554" y="203" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -229,7 +229,7 @@
         </Node>
         <Node ToolID="80">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="426" y="222" width="59" height="59" />
+            <Position x="434" y="203" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -242,7 +242,7 @@
         </Node>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-            <Position x="666" y="138" width="59" height="59" />
+            <Position x="674" y="119" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -255,7 +255,7 @@
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="666" y="102" width="72" height="40" />
+            <Position x="674" y="83" width="72" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -275,7 +275,7 @@
         </Node>
         <Node ToolID="113">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="234" y="234" width="59" height="59" />
+            <Position x="242" y="215" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -290,7 +290,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="46" y="318" width="1422.331" height="883.0002" />
+        <Position x="54" y="301" width="1410.385" height="881" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -308,7 +308,7 @@
       <ChildNodes>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="338.0001" y="779.0002" width="216.5441" height="19" />
+            <Position x="346.0001" y="760.0002" width="204.8053" height="18" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -326,7 +326,7 @@
           <ChildNodes>
             <Node ToolID="70">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="348.0001" y="921.0002" />
+                <Position x="356.0001" y="902.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -358,7 +358,7 @@
             </Node>
             <Node ToolID="30">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="669.9999" y="861.0002" />
+                <Position x="677.9999" y="842.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -380,7 +380,7 @@
             </Node>
             <Node ToolID="32">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="362.0001" y="808.0002" width="564" height="44" />
+                <Position x="370.0001" y="789.0002" width="564" height="44" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -401,7 +401,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="72">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-                <Position x="669.9999" y="945.0002" />
+                <Position x="677.9999" y="926.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -427,7 +427,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="73">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="789.9999" y="945.0002" />
+                <Position x="797.9999" y="926.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -452,7 +452,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="74">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
-                <Position x="885.9999" y="904.0002" />
+                <Position x="893.9999" y="885.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration />
@@ -471,7 +471,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="81">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="669.9999" y="1053" />
+                <Position x="677.9999" y="1034" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -497,7 +497,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1238" y="623.0002" width="220.3307" height="19" />
+            <Position x="1246" y="604.0002" width="208.3854" height="18" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -515,7 +515,7 @@ From data or interface</Text>
           <ChildNodes>
             <Node ToolID="39">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-                <Position x="2004" y="752.0002" />
+                <Position x="2012" y="733.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -533,7 +533,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="68">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-                <Position x="1714" y="700.0002" />
+                <Position x="1722" y="681.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration joinByRecordPos="True">
@@ -576,7 +576,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="82">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-                <Position x="1846" y="712.0002" />
+                <Position x="1854" y="693.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -609,7 +609,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="83">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-                <Position x="1282" y="904.0002" />
+                <Position x="1290" y="885.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -632,7 +632,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="108">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1248" y="652.0002" width="108" height="52" />
+                <Position x="1256" y="633.0002" width="108" height="52" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -652,7 +652,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="109">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1260" y="852.0004" width="108" height="28" />
+                <Position x="1268" y="833.0004" width="108" height="28" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -672,7 +672,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="110">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1824" y="672.0002" width="84" height="40" />
+                <Position x="1832" y="653.0002" width="84" height="40" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -692,7 +692,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="111">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1704" y="660.0002" width="84" height="40" />
+                <Position x="1712" y="641.0002" width="84" height="40" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -712,7 +712,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="112">
               <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
-                <Position x="1380" y="956.0002" />
+                <Position x="1388" y="937.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -741,7 +741,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="114">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-                <Position x="1500" y="860.0002" />
+                <Position x="1508" y="841.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -773,7 +773,7 @@ From data or interface</Text>
             </Node>
             <Node ToolID="115">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="1596" y="860.0002" />
+                <Position x="1604" y="841.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -802,7 +802,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxRPluginGui.R">
-            <Position x="1106" y="587.0002" />
+            <Position x="1114" y="568.0002" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -851,7 +851,7 @@ if(AlteryxFullUpdate) {
         </Node>
         <Node ToolID="116">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="998" y="1127" />
+            <Position x="1006" y="1108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -874,7 +874,7 @@ if(AlteryxFullUpdate) {
         </Node>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="56" y="347" width="243.0001" height="844.0002" />
+            <Position x="64" y="329" width="243.0001" height="843" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -892,7 +892,7 @@ if(AlteryxFullUpdate) {
           <ChildNodes>
             <Node ToolID="6">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="66" y="1086" width="96" height="36" />
+                <Position x="74" y="1067" width="96" height="36" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -912,7 +912,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="31">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-                <Position x="230.0001" y="918.0002" />
+                <Position x="238.0001" y="899.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -938,7 +938,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="4">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="90" y="582" />
+                <Position x="98" y="563" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -985,7 +985,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="5">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="66" y="546" width="96" height="36" />
+                <Position x="74" y="527" width="96" height="36" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1005,7 +1005,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="29">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="86.00007" y="474.0002" />
+                <Position x="94.00007" y="455.0002" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1039,7 +1039,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="3">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="78" y="450" width="72" height="28" />
+                <Position x="86" y="431" width="72" height="28" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1059,7 +1059,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="25">
               <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-                <Position x="86.00008" y="376" />
+                <Position x="94.00008" y="357" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1088,7 +1088,7 @@ if(AlteryxFullUpdate) {
             </Node>
             <Node ToolID="7">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="86.00014" y="1122" />
+                <Position x="94.00014" y="1103" />
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1314,7 +1314,7 @@ if(AlteryxFullUpdate) {
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name>Simulation Scoring</Name>
-      <Description>Simulation Scoring</Description>
+      <Description>Simulation Scoring allows for sampling from an approximation of an error distribution of a model object. Whereas standard scoring attempts to predict the mean predicted value, Simulation Scoring also considers the error distribution in order to provide a range of possible values.</Description>
       <RootToolName />
       <ToolVersion />
       <ToolInDb value="False" />
