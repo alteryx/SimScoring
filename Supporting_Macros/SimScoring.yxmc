@@ -16,11 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-<<<<<<< HEAD
         <Position x="64" y="54" width="692" height="230" />
-=======
-        <Position x="64" y="55" width="692" height="229" />
->>>>>>> 13c71fc32b21139b5223889ff73e60021ed98b2d
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -294,11 +290,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-<<<<<<< HEAD
-        <Position x="54" y="299" width="1422.331" height="883" />
-=======
         <Position x="54" y="301" width="1410.385" height="881" />
->>>>>>> 13c71fc32b21139b5223889ff73e60021ed98b2d
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -316,11 +308,7 @@
       <ChildNodes>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-<<<<<<< HEAD
-            <Position x="346.0001" y="760.0002" width="216.5441" height="19" />
-=======
             <Position x="346.0001" y="760.0002" width="204.8053" height="18" />
->>>>>>> 13c71fc32b21139b5223889ff73e60021ed98b2d
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -509,11 +497,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-<<<<<<< HEAD
-            <Position x="1246" y="604.0002" width="220.3307" height="19" />
-=======
             <Position x="1246" y="604.0002" width="208.3854" height="18" />
->>>>>>> 13c71fc32b21139b5223889ff73e60021ed98b2d
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -890,11 +874,7 @@ if(AlteryxFullUpdate) {
         </Node>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-<<<<<<< HEAD
-            <Position x="64" y="328" width="243.0001" height="844" />
-=======
             <Position x="64" y="329" width="243.0001" height="843" />
->>>>>>> 13c71fc32b21139b5223889ff73e60021ed98b2d
           </GuiSettings>
           <Properties>
             <Configuration>
