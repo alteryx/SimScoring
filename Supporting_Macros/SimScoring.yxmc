@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="64" y="54" width="692" height="229" />
+        <Position x="64" y="53" width="692" height="230" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -290,7 +290,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="300" width="1410.385" height="881" />
+        <Position x="54" y="298" width="1422.331" height="883" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -308,7 +308,7 @@
       <ChildNodes>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="346.0001" y="759.0002" width="204.8053" height="18" />
+            <Position x="346.0001" y="759.0002" width="216.5441" height="19" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -497,7 +497,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1246" y="603.0002" width="208.3854" height="18" />
+            <Position x="1246" y="603.0002" width="220.3307" height="19" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -724,7 +724,7 @@ From data or interface</Text>
                   <Expression_Init>1</Expression_Init>
                   <Expression_Cond>_RowCount_ &lt;= 10</Expression_Cond>
                   <Expression_Loop>_RowCount_ + 1</Expression_Loop>
-                  <RecordCount value="10" />
+                  <RecordCount value="0" />
                 </Configuration>
                 <Annotation DisplayMode="0">
                   <Name />
@@ -874,7 +874,7 @@ if(AlteryxFullUpdate) {
         </Node>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="64" y="328" width="243.0001" height="843" />
+            <Position x="64" y="327" width="243.0001" height="844" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1314,7 +1314,7 @@ if(AlteryxFullUpdate) {
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name>Simulation Scoring</Name>
-      <Description>Sample from an approximation of a model object error distribution..</Description>
+      <Description>Sample from an approximation of a model object error distribution.</Description>
       <RootToolName />
       <ToolVersion />
       <ToolInDb value="False" />
