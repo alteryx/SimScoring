@@ -286,6 +286,19 @@
             </Annotation>
           </Properties>
         </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="318" y="198" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="67">
@@ -497,7 +510,7 @@ From data or interface</Text>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1246" y="603.0002" width="208.3854" height="18" />
+            <Position x="1246" y="604.0002" width="208.3854" height="18" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -798,11 +811,36 @@ From data or interface</Text>
               </Properties>
               <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
             </Node>
+            <Node ToolID="117">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1422" y="654" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <SelectFields>
+                    <SelectField field="__results__" selected="True" rename="Score" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Score" source="R-DATA:" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
           </ChildNodes>
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxRPluginGui.R">
-            <Position x="1114" y="567.0002" />
+            <Position x="1110" y="570" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -817,7 +855,6 @@ config &lt;- list(
   seed = numericInput('%Question.seed%' , 50)
 )
 
-scoreName &lt;- config$results.name
 chunkSize &lt;- config$numRecords
 isGLM &lt;- config$isGLM
 mult &lt;- config$per.iter
@@ -829,11 +866,7 @@ model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
 totalCount &lt;- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
 validation &lt;- if (!isGLM) read.Alteryx("validation") else NULL
 
-if(AlteryxFullUpdate) {
-  write.AlteryxAddFieldMetaInfo(nOutput = 1, name = scoreName, fieldType = "Double", size = 8)
-} else {
-  scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)
-}</RScript>
+scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, "__results__")</RScript>
               <UseFullUpdate value="False" />
             </Configuration>
             <Annotation DisplayMode="0">
@@ -843,7 +876,7 @@ if(AlteryxFullUpdate) {
             </Annotation>
             <MetaInfo connection="Output1">
               <RecordInfo>
-                <Field name="Score" source="R-DATA:" type="Double" />
+                <Field name="__results__" source="R-DATA:" type="Double" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -1141,6 +1174,10 @@ if(AlteryxFullUpdate) {
       <Destination ToolID="25" Connection="Action" />
     </Connection>
     <Connection name="#1">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="118" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
       <Origin ToolID="75" Connection="Question" />
       <Destination ToolID="80" Connection="Question" />
     </Connection>
@@ -1167,6 +1204,14 @@ if(AlteryxFullUpdate) {
     <Connection name="#2" Wireless="True">
       <Origin ToolID="113" Connection="Action" />
       <Destination ToolID="112" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="118" Connection="Action" />
+      <Destination ToolID="117" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output1" />
+      <Destination ToolID="117" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="70" Connection="Left" />
@@ -1241,7 +1286,7 @@ if(AlteryxFullUpdate) {
       <Destination ToolID="68" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="87" Connection="Output1" />
+      <Origin ToolID="117" Connection="Output" />
       <Destination ToolID="68" Connection="Right" />
     </Connection>
     <Connection>
@@ -1375,6 +1420,15 @@ column	1</DynamicConfiguration>
               <Replace value="True" />
               <ReplaceText>10</ReplaceText>
               <Destination>112/Expression_Cond</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="118" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>117/SelectFields/SelectField[@field='__results__']/@rename</Destination>
             </Action>
           </True>
         </NoCondition>

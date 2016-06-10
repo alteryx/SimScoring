@@ -9,7 +9,6 @@ config <- list(
   seed = numericInput('%Question.seed%' , 50)
 )
 
-scoreName <- config$results.name
 chunkSize <- config$numRecords
 isGLM <- config$isGLM
 mult <- config$per.iter
@@ -21,8 +20,4 @@ model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
 totalCount <- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
 validation <- if (!isGLM) read.Alteryx("validation") else NULL
 
-if(AlteryxFullUpdate) {
-  write.AlteryxAddFieldMetaInfo(nOutput = 1, name = scoreName, fieldType = "Double", size = 8)
-} else {
-  scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, scoreName)
-}
+scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize, "__results__")
