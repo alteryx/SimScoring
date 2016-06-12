@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\dblanchard\Desktop\scoreTest\donor.yxdb</File>
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\data\donor.yxdb</File>
           <FormatSpecificOptions />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -16,6 +16,9 @@
           <DefaultAnnotationText>donor.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Donate" size="64" source="Formula: [Donate2]" type="String" />
@@ -85,7 +88,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_d056f4ac1a654bedba03649df0402688_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_6096_d471b32601804d30aa3e3a5fa82b88f3_\Engine_3000_87a0344088864003aed022e5fb093bba_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -108,7 +111,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_cd1c36f711b940f6938e9ae71cdb5b1f_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_6096_d471b32601804d30aa3e3a5fa82b88f3_\Engine_3000_766ff4737bcd4b1b994e1578a5af0061_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -131,7 +134,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_fb3440f586284eb69ff64ada2ecaba65_.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_6096_d471b32601804d30aa3e3a5fa82b88f3_\Engine_3000_a70284e296054362af6903ee7d89b49e_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -193,7 +196,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="858" y="72" width="311" height="755" />
+        <Position x="858" y="71" width="311" height="756" />
       </GuiSettings>
       <Properties>
         <Configuration>
