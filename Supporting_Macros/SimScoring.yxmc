@@ -939,7 +939,7 @@ if (AlteryxFullUpdate) {
                   <FileInput>
                     <Configuration>
                       <Passwords />
-                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\dblanchard\Documents\svn\DBlanchardSandbox\share_with_Debian_VM\git\SimScoring\Supporting_Macros\data\Credit_Defaults_Validation.yxdb</File>
+                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_Validation.yxdb</File>
                       <FormatSpecificOptions />
                     </Configuration>
                   </FileInput>
@@ -1021,7 +1021,7 @@ if (AlteryxFullUpdate) {
                   <FileInput>
                     <Configuration>
                       <Passwords />
-                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\dblanchard\Documents\svn\DBlanchardSandbox\share_with_Debian_VM\git\SimScoring\Supporting_Macros\data\Credit_Defaults_object.yxdb</File>
+                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_object.yxdb</File>
                       <FormatSpecificOptions />
                     </Configuration>
                   </FileInput>
@@ -1104,7 +1104,7 @@ if (AlteryxFullUpdate) {
                   <FileInput>
                     <Configuration>
                       <Passwords />
-                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\dblanchard\Documents\svn\DBlanchardSandbox\share_with_Debian_VM\git\SimScoring\Supporting_Macros\data\Credit_Defaults_sim_data.yxdb</File>
+                      <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_sim_data.yxdb</File>
                       <FormatSpecificOptions />
                     </Configuration>
                   </FileInput>
