@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\dblanchard\Desktop\scoreTest\donor.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>donor.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Donate" size="64" source="Formula: [Donate2]" type="String" />
+            <Field name="Degrees" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="First_Years" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="Last_Years" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="Undergraduate" size="64" source="Formula: IF [Undergradu] == 1 THEN &quot;Yes&quot; ELSE &quot;No&quot; ENDIF" type="String" />
+            <Field name="First_School" size="64" source="Formula: IF [First_School] == &quot;HK&quot; THEN &quot;PE&quot; ELSE [First_School] ENDIF" type="String" />
+            <Field name="Last_School" size="64" source="Formula: IF [Last_School] == &quot;CO&quot; THEN &quot;BU&quot; ELSE [Last_School] ENDIF" type="String" />
+            <Field name="Faculty_Staff" size="64" source="Formula: IF [Faculty_St] == 1 THEN &quot;Yes&quot; ELSE &quot;No&quot; ENDIF" type="String" />
+            <Field name="Intercollegiate" size="64" source="Formula: IF [Intercolle] == 1 THEN &quot;Yes&quot; ELSE &quot;No&quot; ENDIF" type="String" />
+            <Field name="Intramural" size="64" source="Formula: [Intramural2]" type="String" />
+            <Field name="Other_Activities" size="64" source="Formula: IF [Other_Acti] == 1 THEN &quot;Yes&quot; ELSE &quot;No&quot; ENDIF" type="String" />
+            <Field name="Gender" size="64" source="Formula: [Gender2]" type="String" />
+            <Field name="Child" size="64" source="Formula: [Child2]" type="String" />
+            <Field name="Parent" size="64" source="Formula: [Parent2]" type="String" />
+            <Field name="Spouse" size="64" source="Formula: [Spouse2]" type="String" />
+            <Field name="Telephone" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="Mail" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="Personal" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+            <Field name="Combined" source="File: C:\Users\dputler\Dropbox\R_Commander\Windows_Packages\UBC.dbf" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">34</Value>
+          <Value name="validation pct">33</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_d056f4ac1a654bedba03649df0402688_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_cd1c36f711b940f6938e9ae71cdb5b1f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DBLANC~1\AppData\Local\Temp\Engine_6748_069b66549fbe4df98d79498e522f6d64_\Engine_9420_fb3440f586284eb69ff64ada2ecaba65_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="558" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">aaa</Value>
+          <Value name="Y Var">Donate</Value>
+          <Value name="X Vars">Degrees + First_Years + Last_Years + Undergraduate + First_School + Last_School + Faculty_Staff + Intercollegiate + Intramural + Other_Activities + Gender + Child + Parent + Spouse + Telephone + Mail + Personal + Combined</Value>
+          <Value name="Link">logit</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec">Degrees</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Logistic_Regression.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="SimScoring">
+        <Position x="738" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="seed">1</Value>
+          <Value name="displaySeed">True</Value>
+          <Value name="isGLM">False</Value>
+          <Value name="per.iter">1</Value>
+          <Value name="numRecords">256000</Value>
+          <Value name="results.name">sddfsdf</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="858" y="72" width="311" height="755" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings>
+            <Position x="930" y="468" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">aaaa</Value>
+              <Value name="select.target">Donate</Value>
+              <Value name="select.predictors">Donate=False,Degrees=True,First_Years=True,Last_Years=True,Undergraduate=True,First_School=True,Last_School=True,Faculty_Staff=True,Intercollegiate=True,Intramural=True,Other_Activities=True,Gender=True,Child=True,Parent=True,Spouse=True,Telephone=True,Mail=True,Personal=True,Combined=True</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Degrees</Value>
+              <Value name="num.nodes">10</Value>
+              <Value name="marginal.plots">True</Value>
+              <Value name="custom.scaling">False</Value>
+              <Value name="scale.type">z-score</Value>
+              <Value name="decay">0.100</Value>
+              <Value name="range">0.700</Value>
+              <Value name="max.wts">1000</Value>
+              <Value name="max.iter">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Neural_Network.yxmc" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings>
+            <Position x="930" y="564" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">a</Value>
+              <Value name="select.target">Donate</Value>
+              <Value name="select.predictors">Donate=False,Degrees=True,First_Years=True,Last_Years=True,Undergraduate=True,First_School=True,Last_School=True,Faculty_Staff=True,Intercollegiate=True,Intramural=True,Other_Activities=True,Gender=True,Child=True,Parent=True,Spouse=True,Telephone=True,Mail=True,Personal=True,Combined=True</Value>
+              <Value name="marginal.plots">True</Value>
+              <Value name="main.effect.plots">False</Value>
+              <Value name="interaction.effect.plots">False</Value>
+              <Value name="both.main.interaction.plots">True</Value>
+              <Value name="type.glm">False</Value>
+              <Value name="type.continuous">True</Value>
+              <Value name="continuous.none">False</Value>
+              <Value name="continuous.gaussian">True</Value>
+              <Value name="type.gamma">False</Value>
+              <Value name="gamma.log">True</Value>
+              <Value name="gamma.inverse">False</Value>
+              <Value name="gamma.identity">False</Value>
+              <Value name="type.count">False</Value>
+              <Value name="poisson.log">True</Value>
+              <Value name="poisson.identity">False</Value>
+              <Value name="type.binomial">False</Value>
+              <Value name="binomial.logit">True</Value>
+              <Value name="binomial.probit">False</Value>
+              <Value name="binomial.cloglog">False</Value>
+              <Value name="type.multinomial">False</Value>
+              <Value name="scale.target">True</Value>
+              <Value name="max.knots">Auto</Value>
+              <Value name="interaction.depth">1</Value>
+              <Value name="penalty">default</Value>
+              <Value name="thresh">0.0010000</Value>
+              <Value name="minspan">0.000</Value>
+              <Value name="newvar.penalty">0.0000</Value>
+              <Value name="fast.k">20</Value>
+              <Value name="fast.beta">1.00</Value>
+              <Value name="cross.validation">False</Value>
+              <Value name="ncross">1</Value>
+              <Value name="nfolds">1</Value>
+              <Value name="stratify">False</Value>
+              <Value name="random.seed">1</Value>
+              <Value name="pmethod">backward</Value>
+              <Value name="nprune">0</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="com.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Spline_Model.yxmc" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="930.0001" y="660" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">aaaaa</Value>
+              <Value name="select.target">Donate</Value>
+              <Value name="select.predictors">Donate=False,Degrees=True,First_Years=True,Last_Years=True,Undergraduate=True,First_School=True,Last_School=True,Faculty_Staff=True,Intercollegiate=True,Intramural=True,Other_Activities=True,Gender=True,Child=True,Parent=True,Spouse=True,Telephone=True,Mail=True,Personal=True,Combined=True</Value>
+              <Value name="type.classification">True</Value>
+              <Value name="class.c">True</Value>
+              <Value name="class.nu">False</Value>
+              <Value name="nu_nu">0.05</Value>
+              <Value name="type.regression">False</Value>
+              <Value name="reg.eps">True</Value>
+              <Value name="reg.nu">False</Value>
+              <Value name="reg.nu_nu">0.05</Value>
+              <Value name="model.cust">False</Value>
+              <Value name="user.define">True</Value>
+              <Value name="kernel.linear">False</Value>
+              <Value name="linear.cost">1.00</Value>
+              <Value name="kernel.polynomial">False</Value>
+              <Value name="poly.cost">1.00</Value>
+              <Value name="poly.degree">2.000</Value>
+              <Value name="poly.gamma">1.00000</Value>
+              <Value name="poly.coef0">1.00</Value>
+              <Value name="kernel.radial">True</Value>
+              <Value name="rad.cost">1.00</Value>
+              <Value name="rad.gamma">1.00000</Value>
+              <Value name="kernel.sigmoid">False</Value>
+              <Value name="sigmoid.cost">1.00</Value>
+              <Value name="sigmoid.gamma">1.00000</Value>
+              <Value name="sigmoid.coef0">1.00</Value>
+              <Value name="grid.search">False</Value>
+              <Value name="gs.number">5</Value>
+              <Value name="gs.linear">False</Value>
+              <Value name="gs.linear.cost_min">1.00</Value>
+              <Value name="gs.linear.cost_max">1.00</Value>
+              <Value name="gs.polynomial">False</Value>
+              <Value name="gs.poly.cost_min">1.00</Value>
+              <Value name="gs.poly.cost_max">1.00</Value>
+              <Value name="gs.poly.degree_min">2.000</Value>
+              <Value name="gs.poly.degree_max">2.000</Value>
+              <Value name="gs.poly.gamma_min">1.00000</Value>
+              <Value name="gs.poly.gamma_max">1.00000</Value>
+              <Value name="gs.poly.coef0_min">1.00</Value>
+              <Value name="gs.poly.coef0_max">1.00</Value>
+              <Value name="gs.radial">True</Value>
+              <Value name="gs.radial.cost_min">1.00</Value>
+              <Value name="gs.radial.cost_max">1.00</Value>
+              <Value name="gs.radial.gamma_min">1.00000</Value>
+              <Value name="gs.radial.gamma_max">1.00000</Value>
+              <Value name="gs.sigmoid">False</Value>
+              <Value name="gs.sigmoid.cost_min">1.00</Value>
+              <Value name="gs.sigmoid.cost_max">1.00</Value>
+              <Value name="gs.sigmoid.gamma_min">1.00000</Value>
+              <Value name="gs.sigmoid.gamma_max">1.00000</Value>
+              <Value name="gs.sigmoid.coef0_min">1.00</Value>
+              <Value name="gs.sigmoid.coef0_max">1.00</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\SVM_v2.yxmc" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="918" y="276" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">a</Value>
+              <Value name="Y Var">Donate</Value>
+              <Value name="X Vars">Degrees + First_Years + Last_Years + Undergraduate + First_School + Last_School + Faculty_Staff + Intercollegiate + Intramural + Other_Activities + Gender + Child + Parent + Spouse + Telephone + Mail + Personal + Combined</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Degrees</Value>
+              <Value name="cp">Auto</Value>
+              <Value name="select.type">False</Value>
+              <Value name="classification">True</Value>
+              <Value name="use.gini">True</Value>
+              <Value name="use.information">False</Value>
+              <Value name="regression">False</Value>
+              <Value name="min.split">20</Value>
+              <Value name="min.bucket">7</Value>
+              <Value name="usesurrogate.0">False</Value>
+              <Value name="usesurrogate.1">False</Value>
+              <Value name="usesurrogate.2">True</Value>
+              <Value name="total.correct">True</Value>
+              <Value name="percent.correct">False</Value>
+              <Value name="xval.folds">10</Value>
+              <Value name="max.depth">20</Value>
+              <Value name="max.bins">Default</Value>
+              <Value name="tree.plot">True</Value>
+              <Value name="Counts">False</Value>
+              <Value name="Proportions">True</Value>
+              <Value name="Branch Dist">True</Value>
+              <Value name="tree.inches">True</Value>
+              <Value name="tree.in.w">5.50</Value>
+              <Value name="tree.in.h">5.50</Value>
+              <Value name="tree.centimeters">False</Value>
+              <Value name="tree.cm.w">13.00</Value>
+              <Value name="tree.cm.h">14.95</Value>
+              <Value name="tree.graph.resolution">1x</Value>
+              <Value name="tree.pointsize">8</Value>
+              <Value name="prune.plot">False</Value>
+              <Value name="prune.inches">True</Value>
+              <Value name="prune.in.w">5.50</Value>
+              <Value name="prune.in.h">5.50</Value>
+              <Value name="prune.centimeters">False</Value>
+              <Value name="prune.cm.w">13.00</Value>
+              <Value name="prune.cm.h">14.95</Value>
+              <Value name="prune.graph.resolution">1x</Value>
+              <Value name="prune.pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Decision_Tree.yxmc" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="930" y="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">aa</Value>
+              <Value name="Y Var">Donate</Value>
+              <Value name="X Vars">Degrees + First_Years + Last_Years + Undergraduate + First_School + Last_School + Faculty_Staff + Intercollegiate + Intramural + Other_Activities + Gender + Child + Parent + Spouse + Telephone + Mail + Personal + Combined</Value>
+              <Value name="Num Trees">500</Value>
+              <Value name="Custom Num Vars">False</Value>
+              <Value name="Num Vars">3</Value>
+              <Value name="model.size">False</Value>
+              <Value name="total.nodes">100</Value>
+              <Value name="max.depth">10</Value>
+              <Value name="node.size">5</Value>
+              <Value name="replace">True</Value>
+              <Value name="samp.rate">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1050" y="264" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1026" y="348" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1014" y="708" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1038" y="516" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1014" y="600" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">1</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="1038" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
+              <Value name="displaySeed">True</Value>
+              <Value name="isGLM">False</Value>
+              <Value name="per.iter">2</Value>
+              <Value name="numRecords">256000</Value>
+              <Value name="results.name">Score</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SimScoring/Supporting_Macros/SimScoring.yxmc" EngineDll="Macro" EngineDllEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="25" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="25" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="25" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="26" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="26" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="26" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="30" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="30" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Object" />
+      <Destination ToolID="30" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="32" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="32" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="32" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="33" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="33" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="33" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="36" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="36" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="36" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="39" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Holdout" />
+      <Destination ToolID="39" Connection="Simulation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="39" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="True" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>testAllDonor</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
