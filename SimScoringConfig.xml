@@ -15,7 +15,7 @@
     <MetaInfo>
       <NameIsFileName>False</NameIsFileName>
       <Name>Simulation Scoring</Name>
-      <Description>Sample from an approximation of a model object error distribution.</Description>
+      <Description>Sample from an approximation of a model object error distribution..</Description>
       <ToolInDb>False</ToolInDb>
       <CategoryName>Prescriptive</CategoryName>
       <Author>Dylan Blanchard</Author>
