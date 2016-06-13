@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="114" width="367" height="221" />
+        <Position x="56" y="121" width="463" height="221" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -61,7 +61,7 @@
       <ChildNodes>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="64" y="143" />
+            <Position x="66" y="150" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -85,7 +85,7 @@
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="64" y="251" />
+            <Position x="66" y="258" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -109,13 +109,13 @@
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
         </Node>
-        <Node ToolID="31">
+        <Node ToolID="60">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="352" y="203" />
+            <Position x="450" y="198" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_1104_6f97883967194552962e07a5c16e5212_\Engine_5320_afc199cb77444aa68447cf0f8a8409a3_.yxdb</TempFile>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4728_1419fba403c84fa081afde1f56b4e760_\Engine_3612_fd5b979b84464032aa252f08fdbe98b3_.yxdb</TempFile>
               <Layout>
                 <View1>
                   <Hints>
@@ -132,13 +132,48 @@
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
-        <Node ToolID="46">
-          <GuiSettings Plugin="SimScoring">
-            <Position x="208" y="203" />
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="198" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Value name="seed">50</Value>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="SimScoring">
+            <Position x="186" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="seed">1</Value>
               <Value name="displaySeed">False</Value>
               <Value name="isGLM">True</Value>
               <Value name="per.iter">1</Value>
@@ -159,15 +194,23 @@
   <Connections>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="46" Connection="Model" />
+      <Destination ToolID="66" Connection="Model" />
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="46" Connection="Simulation" />
+      <Destination ToolID="66" Connection="Simulation" />
     </Connection>
     <Connection>
-      <Origin ToolID="46" Connection="Data" />
-      <Destination ToolID="31" Connection="Input" />
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Data" />
+      <Destination ToolID="62" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
