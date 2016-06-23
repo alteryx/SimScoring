@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <AlteryxJavaScriptPlugin>
   <EngineSettings EngineDLL="Macro" EngineDLLEntryPoint="SimScoring/Supporting_Macros/SimScoring.yxmc" SDKVersion="10.1"/>
-  <GuiSettings Html="SimScoringGui.html" Icon="SimScoringIcon.png" SDKVersion="10.1">
+  <GuiSettings Html="SimScoringGui.html" Icon="SimScoringIcon.png" SDKVersion="10.1" Help="Sim_Scoring.htm">
     <InputConnections>
       <Connection Name="Model" AllowMultiple="False" Optional="False" Type="Connection" Label="M"/>
       <Connection Name="Validation" AllowMultiple="False" Optional="True" Type="Connection" Label="V"/>
