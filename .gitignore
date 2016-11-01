@@ -5,3 +5,4 @@
 *.bak
 README.html
 Supporting_Macros/*.html
+.DS_Store
