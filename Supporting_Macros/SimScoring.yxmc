@@ -3,286 +3,286 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="0" width="59" height="59" />
+        <Position x="0" y="0" width="59" height="59"/>
       </GuiSettings>
       <Properties>
-        <Configuration />
+        <Configuration/>
         <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
+          <Name/>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
         </Annotation>
       </Properties>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="64" y="54" width="692" height="230" />
+        <Position x="64" y="54" width="692" height="230"/>
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>INTERFACE</Caption>
-          <Style TextColor="#2f4f4f" FillColor="#defe9c" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-          <Disabled value="False" />
-          <Folded value="False" />
+          <Style TextColor="#2f4f4f" FillColor="#defe9c" BorderColor="#2f4f4f" Transparency="80" Margin="10"/>
+          <Disabled value="False"/>
+          <Folded value="False"/>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
+          <Name/>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
         </Annotation>
       </Properties>
       <ChildNodes>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="83.99987" y="116" width="59" height="59" />
+            <Position x="83.99987" y="116" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>numRecords</Name>
               <AnnotationText>The tool can break the input data into chunks, scoring a chunk at a time, and thereby avoid R's in-memory processing limitation. This option controls the maximal number of records contained in each such chunk of data.</AnnotationText>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="74" y="83" width="72" height="40" />
+            <Position x="74" y="83" width="72" height="40"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Number of records</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="192.0001" y="116" width="59" height="59" />
+            <Position x="192.0001" y="116" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>per.iter</Name>
               <AnnotationText>The number of draws from the error distribution for each incoming record</AnnotationText>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="182" y="83" width="84" height="40" />
+            <Position x="182" y="83" width="84" height="40"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Samples per iteration</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="158" y="215" width="59" height="59" />
+            <Position x="158" y="215" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="301.9998" y="115" width="59" height="59" />
+            <Position x="301.9998" y="115" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>results.name</Name>
               <AnnotationText>The field name for the results generated. The field name must start with a letter and may contain letters, numbers, and the special characters period(".") and underscore ("_"). No other special characters are allowed, and R is case sensitive.</AnnotationText>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="290" y="83" width="72" height="36" />
+            <Position x="290" y="83" width="72" height="36"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Results name</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-            <Position x="422" y="119" width="59" height="59" />
+            <Position x="422" y="119" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>displaySeed</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="76">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="410" y="83" width="84" height="36" />
+            <Position x="410" y="83" width="84" height="36"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Should a new seed be set?</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="77">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="542" y="83" width="72" height="36" />
+            <Position x="542" y="83" width="72" height="36"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Random seed</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="554" y="119" width="59" height="59" />
+            <Position x="554" y="119" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>seed</Name>
               <AnnotationText>(optional) Set a random seed. This option will be hidden if there is a seed field in the data to be scored.</AnnotationText>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="554" y="203" width="59" height="59" />
+            <Position x="554" y="203" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="80">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="434" y="203" width="59" height="59" />
+            <Position x="434" y="203" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-            <Position x="674" y="119" width="59" height="59" />
+            <Position x="674" y="119" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
               <Name>isGLM</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="674" y="83" width="72" height="40" />
+            <Position x="674" y="83" width="72" height="40"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Text>Model is of GLM class</Text>
-              <Font name="Segoe UI" size="8.25" style="1" />
-              <TextColor r="0" g="128" b="192" />
-              <FillColor name="White" />
-              <Shape shape="3" />
-              <Justification Justification="4" />
+              <Font name="Segoe UI" size="8.25" style="1"/>
+              <TextColor r="0" g="128" b="192"/>
+              <FillColor name="White"/>
+              <Shape shape="3"/>
+              <Justification Justification="4"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
         <Node ToolID="120">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="294" y="199" width="59" height="59" />
+            <Position x="294" y="199" width="59" height="59"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
         </Node>
@@ -290,111 +290,111 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="299" width="2277" height="883" />
+        <Position x="54" y="299" width="2277" height="883"/>
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>MACRO</Caption>
-          <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-          <Disabled value="False" />
-          <Folded value="False" />
+          <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10"/>
+          <Disabled value="False"/>
+          <Folded value="False"/>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
+          <Name/>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
         </Annotation>
       </Properties>
       <ChildNodes>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="346.0001" y="760.0002" width="616.9998" height="347.9998" />
+            <Position x="346.0001" y="760.0002" width="616.9998" height="347.9998"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Caption>Common for Right and Left - Pre-R</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-              <Disabled value="False" />
-              <Folded value="False" />
+              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10"/>
+              <Disabled value="False"/>
+              <Folded value="False"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
           <ChildNodes>
             <Node ToolID="70">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-                <Position x="356.0001" y="902.0002" />
+                <Position x="356.0001" y="902.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <DetourRight value="True" />
+                  <DetourRight value="True"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Left">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
                 <MetaInfo connection="Right">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour"/>
             </Node>
             <Node ToolID="30">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="677.9999" y="842.0002" />
+                <Position x="677.9999" y="842.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -402,130 +402,130 @@
                   <Expression>[Name]=="seed"</Expression>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect"/>
             </Node>
             <Node ToolID="32">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="370.0001" y="789.0002" width="564" height="44" />
+                <Position x="370.0001" y="789.0002" width="564" height="44"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Get seed
 From data or interface</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="8.25" style="0"/>
+                  <TextColor name="Black"/>
+                  <FillColor name="White"/>
+                  <Shape shape="0"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="72">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-                <Position x="677.9999" y="926.0002" />
+                <Position x="677.9999" y="926.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <FormulaFields>
-                    <FormulaField field="seed" type="Int16" size="2" expression="1234" />
+                    <FormulaField field="seed" type="Int16" size="2" expression="1234"/>
                   </FormulaFields>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
+                  <Name/>
                   <DefaultAnnotationText>seed=1234</DefaultAnnotationText>
-                  <Left value="False" />
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
+                    <Field name="seed" source="Formula: 1234" type="Int16"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula"/>
             </Node>
             <Node ToolID="73">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-                <Position x="797.9999" y="926.0002" />
+                <Position x="797.9999" y="926.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <OrderChanged value="False" />
+                  <OrderChanged value="False"/>
                   <SelectFields>
-                    <SelectField field="seed" selected="True" />
-                    <SelectField field="*Unknown" selected="False" />
+                    <SelectField field="seed" selected="True"/>
+                    <SelectField field="*Unknown" selected="False"/>
                   </SelectFields>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="seed" source="Formula: 1234" type="Int16"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
             </Node>
             <Node ToolID="74">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
-                <Position x="893.9999" y="885.0002" />
+                <Position x="893.9999" y="885.0002"/>
               </GuiSettings>
               <Properties>
-                <Configuration />
+                <Configuration/>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: 1234" type="Int16" />
+                    <Field name="seed" source="Formula: 1234" type="Int16"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd"/>
             </Node>
             <Node ToolID="81">
               <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
-                <Position x="678" y="1039" />
+                <Position x="678" y="1039"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -533,42 +533,42 @@ From data or interface</Text>
                   <Expression>[Name]!="seed"</Expression>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect"/>
             </Node>
             <Node ToolID="124">
               <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-                <Position x="774" y="1038" />
+                <Position x="774" y="1038"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -578,66 +578,66 @@ From data or interface</Text>
                   <Position>0</Position>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32" />
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32"/>
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                   <SortInfo>
-                    <Field field="asdfasdfRecordIDasdfasdf" order="Asc" />
+                    <Field field="asdfasdfRecordIDasdfasdf" order="Asc"/>
                   </SortInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID"/>
             </Node>
           </ChildNodes>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="1486" y="604.0002" width="835" height="350" />
+            <Position x="1486" y="604.0002" width="835" height="350"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Caption>Common for Right and Left - post-R</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-              <Disabled value="False" />
-              <Folded value="False" />
+              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10"/>
+              <Disabled value="False"/>
+              <Folded value="False"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
           <ChildNodes>
             <Node ToolID="39">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-                <Position x="2252" y="733.0002" />
+                <Position x="2252" y="733.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -645,146 +645,146 @@ From data or interface</Text>
                   <Abbrev>D</Abbrev>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
+                  <Name/>
                   <AnnotationText>__D Output__ The incoming data to be scored, along with the simulated score.</AnnotationText>
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput"/>
             </Node>
             <Node ToolID="82">
               <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-                <Position x="2094" y="693.0002" />
+                <Position x="2094" y="693.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <CartesianMode>Error</CartesianMode>
                   <SelectConfiguration>
                     <Configuration outputConnection="Output">
-                      <OrderChanged value="False" />
+                      <OrderChanged value="False"/>
                       <SelectFields>
-                        <SelectField field="*Unknown" selected="True" />
+                        <SelectField field="*Unknown" selected="True"/>
                       </SelectFields>
                     </Configuration>
                   </SelectConfiguration>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
-                    <Field name="__asdfasdfasdf__" source="R-DATA:" type="Double" />
-                    <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
+                    <Field name="__asdfasdfasdf__" source="R-DATA:" type="Double"/>
+                    <Field name="seed" source="Formula: [seed]+1" type="Int16"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields"/>
             </Node>
             <Node ToolID="83">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-                <Position x="1530" y="885.0002" />
+                <Position x="1530" y="885.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <FormulaFields>
-                    <FormulaField field="seed" type="Int16" size="2" expression="[seed]+1" />
+                    <FormulaField field="seed" type="Int16" size="2" expression="[seed]+1"/>
                   </FormulaFields>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
+                  <Name/>
                   <DefaultAnnotationText>seed=[seed]+1</DefaultAnnotationText>
-                  <Left value="False" />
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="seed" source="Formula: [seed]+1" type="Int16" />
+                    <Field name="seed" source="Formula: [seed]+1" type="Int16"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula"/>
             </Node>
             <Node ToolID="108">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1496" y="633.0002" width="108" height="52" />
+                <Position x="1496" y="633.0002" width="108" height="52"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Output from appropriate R SimScoring tool</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="8.25" style="0"/>
+                  <TextColor name="Black"/>
+                  <FillColor name="White"/>
+                  <Shape shape="0"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="109">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="1508" y="833.0004" width="108" height="28" />
+                <Position x="1508" y="833.0004" width="108" height="28"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Increment seed</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="8.25" style="0"/>
+                  <TextColor name="Black"/>
+                  <FillColor name="White"/>
+                  <Shape shape="0"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="110">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="2072" y="653.0002" width="84" height="40" />
+                <Position x="2072" y="653.0002" width="84" height="40"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Append next seed to data</Text>
-                  <Font name="Segoe UI" size="8.25" style="0" />
-                  <TextColor name="Black" />
-                  <FillColor name="White" />
-                  <Shape shape="0" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="8.25" style="0"/>
+                  <TextColor name="Black"/>
+                  <FillColor name="White"/>
+                  <Shape shape="0"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
@@ -792,13 +792,13 @@ From data or interface</Text>
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxRPluginGui.R">
-            <Position x="1110" y="571" />
+            <Position x="1110" y="571"/>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <RScript><![CDATA[## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
+              <RScript>## DO NOT MODIFY: Auto Inserted by AlteryxRhelper ----
 library(AlteryxSim)
-config <- list(
+config &lt;- list(
   displaySeed = checkboxInput('%Question.displaySeed%' , FALSE),
   isGLM = checkboxInput('%Question.isGLM%' , FALSE),
   numRecords = numericInput('%Question.numRecords%' , 256000),
@@ -808,171 +808,158 @@ config <- list(
 )
 
 
-if (AlteryxFullUpdate) {
-	meta.data <- read.AlteryxMetaInfo("sim")
-	# Write out the metadata for the "pass-through" data
-	meta.data$Name <- as.character(meta.data$Name)
-	meta.data$Type <- as.character(meta.data$Type)
-	meta.data$Source <- as.character(meta.data$Source)
-	for (i in 1:nrow(meta.data))
-		write.AlteryxAddFieldMetaInfo(nOutput = 1, name = meta.data$Name[i], fieldType = meta.data$Type[i], size = meta.data$Size[i], source = meta.data$Source[i])
-	# Write out the metadata for the score field
-	score.field <- "asdfasdfresultsasdfasdf"
-	write.AlteryxAddFieldMetaInfo(nOutput = 1, name = score.field, fieldType = "Double", size = 8, source = "R-DATA:")
-} else {
-	chunkSize <- config$numRecords
-	valCount <- unlist(as.numeric(read.Alteryx("valCount")))[1]
-	isGLM <- valCount == 0
-	mult <- config$per.iter
-	seed <- config$seed
 
-	## Inputs ----
-
-
-	model <- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
-	totalCount <- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
-	validation <- if (!isGLM) read.Alteryx("validation") else NULL
-
-
-	scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize)
-} ]]></RScript>
-              <UseFullUpdate value="False" />
+chunkSize &lt;- config$numRecords
+valCount &lt;- unlist(as.numeric(read.Alteryx("valCount")))[1]
+isGLM &lt;- valCount == 0
+mult &lt;- config$per.iter
+seed &lt;- config$seed
+  
+## Inputs ----
+  
+model &lt;- unserializeObject(as.character(read.Alteryx("model")$Object[1]))
+totalCount &lt;- as.integer(unlist(read.Alteryx("totalCountSim", mode="list"))[1])
+validation &lt;- if (!isGLM) read.Alteryx("validation") else NULL
+  
+scoreProcess(model, isGLM, mult, totalCount, validation, seed, chunkSize) 
+</RScript>
+              <UseFullUpdate value="False"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Output1">
               <RecordInfo>
-                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double" />
-                <Field name="asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32" />
+                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double"/>
+                <Field name="asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32"/>
               </RecordInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+          <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR"/>
         </Node>
         <Node ToolID="116">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1006" y="1108" />
+            <Position x="1006" y="1108"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <SummarizeFields>
-                <SummarizeField field="SLG" action="Count" rename="Count" />
+                <SummarizeField field="SLG" action="Count" rename="Count"/>
               </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Count" source="Summarize: Count" type="Int64" />
+                <Field name="Count" source="Summarize: Count" type="Int64"/>
               </RecordInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize"/>
         </Node>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-            <Position x="64" y="328" width="243.0001" height="844" />
+            <Position x="64" y="328" width="243.0001" height="844"/>
           </GuiSettings>
           <Properties>
             <Configuration>
               <Caption>Setup</Caption>
-              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10" />
-              <Disabled value="False" />
-              <Folded value="False" />
+              <Style TextColor="#2f4f4f" FillColor="#d3b6d2" BorderColor="#2f4f4f" Transparency="80" Margin="10"/>
+              <Disabled value="False"/>
+              <Folded value="False"/>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
           </Properties>
           <ChildNodes>
             <Node ToolID="6">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="74" y="1067" width="96" height="36" />
+                <Position x="74" y="1067" width="96" height="36"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Simulation Data</Text>
-                  <Font name="Segoe UI" size="9.75" style="1" />
-                  <TextColor r="0" g="128" b="192" />
-                  <FillColor name="White" />
-                  <Shape shape="3" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="9.75" style="1"/>
+                  <TextColor r="0" g="128" b="192"/>
+                  <FillColor name="White"/>
+                  <Shape shape="3"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="31">
               <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-                <Position x="238.0001" y="899.0002" />
+                <Position x="238.0001" y="899.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <GroupFields orderChanged="False" />
+                  <GroupFields orderChanged="False"/>
                   <Mode>First</Mode>
                   <N>1</N>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
+                  <Name/>
                   <DefaultAnnotationText>First 1</DefaultAnnotationText>
-                  <Left value="False" />
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample"/>
             </Node>
             <Node ToolID="4">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="102" y="558" />
+                <Position x="102" y="558"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <UseFileInput value="True" />
+                  <UseFileInput value="True"/>
                   <Name>Validation</Name>
                   <Abbrev>V</Abbrev>
-                  <ShowFieldMap value="False" />
-                  <Optional value="True" />
+                  <ShowFieldMap value="False"/>
+                  <Optional value="True"/>
                   <FileInput>
                     <Configuration>
-                      <Passwords />
+                      <Passwords/>
                       <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_Validation.yxdb</File>
-                      <FormatSpecificOptions />
+                      <FormatSpecificOptions/>
                     </Configuration>
                   </FileInput>
                 </Configuration>
@@ -988,73 +975,73 @@ if (AlteryxFullUpdate) {
  
 ]]></AnnotationText>
                   <DefaultAnnotationText>Credit_Defaults_Validation.yxdb</DefaultAnnotationText>
-                  <Left value="True" />
+                  <Left value="True"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput"/>
             </Node>
             <Node ToolID="5">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="74" y="527" width="96" height="36" />
+                <Position x="74" y="527" width="96" height="36"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Validation Data</Text>
-                  <Font name="Segoe UI" size="9.75" style="1" />
-                  <TextColor r="0" g="128" b="192" />
-                  <FillColor name="White" />
-                  <Shape shape="3" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="9.75" style="1"/>
+                  <TextColor r="0" g="128" b="192"/>
+                  <FillColor name="White"/>
+                  <Shape shape="3"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="29">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="94.00007" y="455.0002" />
+                <Position x="94.00007" y="455.0002"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <UseFileInput value="True" />
+                  <UseFileInput value="True"/>
                   <Name>Model</Name>
                   <Abbrev>M</Abbrev>
-                  <ShowFieldMap value="False" />
-                  <Optional value="False" />
+                  <ShowFieldMap value="False"/>
+                  <Optional value="False"/>
                   <FileInput>
                     <Configuration>
-                      <Passwords />
+                      <Passwords/>
                       <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_object.yxdb</File>
-                      <FormatSpecificOptions />
+                      <FormatSpecificOptions/>
                     </Configuration>
                   </FileInput>
                 </Configuration>
@@ -1062,46 +1049,46 @@ if (AlteryxFullUpdate) {
                   <Name>model</Name>
                   <AnnotationText>__Model Input__ The model object produced by one of the R-based predictive modeling tools.</AnnotationText>
                   <DefaultAnnotationText>Credit_Defaults_object.yxdb</DefaultAnnotationText>
-                  <Left value="True" />
+                  <Left value="True"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
-                    <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+                    <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString"/>
+                    <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput"/>
             </Node>
             <Node ToolID="3">
               <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-                <Position x="86" y="431" width="72" height="28" />
+                <Position x="86" y="431" width="72" height="28"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
                   <Text>Model</Text>
-                  <Font name="Segoe UI" size="9.75" style="1" />
-                  <TextColor r="0" g="128" b="192" />
-                  <FillColor name="White" />
-                  <Shape shape="3" />
-                  <Justification Justification="4" />
+                  <Font name="Segoe UI" size="9.75" style="1"/>
+                  <TextColor r="0" g="128" b="192"/>
+                  <FillColor name="White"/>
+                  <Shape shape="3"/>
+                  <Justification Justification="4"/>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
             </Node>
             <Node ToolID="25">
               <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-                <Position x="94.00008" y="357" />
+                <Position x="94.00008" y="357"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <NumRows value="1" />
+                  <NumRows value="1"/>
                   <Fields>
-                    <Field name="Count" />
+                    <Field name="Count"/>
                   </Fields>
                   <Data>
                     <r>
@@ -1110,34 +1097,34 @@ if (AlteryxFullUpdate) {
                   </Data>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Count" source="TextInput:" type="Byte" />
+                    <Field name="Count" source="TextInput:" type="Byte"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput"/>
             </Node>
             <Node ToolID="7">
               <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-                <Position x="94.00014" y="1103" />
+                <Position x="94.00014" y="1103"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
-                  <UseFileInput value="True" />
+                  <UseFileInput value="True"/>
                   <Name>Simulation</Name>
                   <Abbrev>S</Abbrev>
-                  <ShowFieldMap value="False" />
-                  <Optional value="False" />
+                  <ShowFieldMap value="False"/>
+                  <Optional value="False"/>
                   <FileInput>
                     <Configuration>
-                      <Passwords />
+                      <Passwords/>
                       <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\data\Credit_Defaults_sim_data.yxdb</File>
-                      <FormatSpecificOptions />
+                      <FormatSpecificOptions/>
                     </Configuration>
                   </FileInput>
                 </Configuration>
@@ -1145,40 +1132,40 @@ if (AlteryxFullUpdate) {
                   <Name>simulation</Name>
                   <AnnotationText>__Simulation Input__ The simulation data to score. This must contain all of the fields that the associated predictive model was created on.</AnnotationText>
                   <DefaultAnnotationText>Credit_Defaults_sim_data.yxdb</DefaultAnnotationText>
-                  <Left value="True" />
+                  <Left value="True"/>
                 </Annotation>
                 <MetaInfo connection="Output">
                   <RecordInfo>
-                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                    <Field name="Duration" source="TextInput:" type="Byte" />
-                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                    <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                    <Field name="Amount" source="TextInput:" type="Int16" />
-                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                    <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                    <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                    <Field name="Length_Res" source="TextInput:" type="Byte" />
-                    <Field name="Property" size="4" source="TextInput:" type="String" />
-                    <Field name="Age" source="TextInput:" type="Byte" />
-                    <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                    <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                    <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                    <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                    <Field name="Dependents" source="TextInput:" type="Byte" />
-                    <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                    <Field name="Default" size="3" source="TextInput:" type="String" />
-                    <Field name="Sample" size="10" source="TextInput:" type="String" />
+                    <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                    <Field name="Duration" source="TextInput:" type="Byte"/>
+                    <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                    <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                    <Field name="Amount" source="TextInput:" type="Int16"/>
+                    <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                    <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                    <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                    <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                    <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                    <Field name="Property" size="4" source="TextInput:" type="String"/>
+                    <Field name="Age" source="TextInput:" type="Byte"/>
+                    <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                    <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                    <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                    <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                    <Field name="Dependents" source="TextInput:" type="Byte"/>
+                    <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                    <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                    <Field name="Default" size="3" source="TextInput:" type="String"/>
+                    <Field name="Sample" size="10" source="TextInput:" type="String"/>
                   </RecordInfo>
                 </MetaInfo>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput"/>
             </Node>
             <Node ToolID="123">
               <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-                <Position x="198" y="1099" />
+                <Position x="198" y="1099"/>
               </GuiSettings>
               <Properties>
                 <Configuration>
@@ -1186,92 +1173,92 @@ if (AlteryxFullUpdate) {
                   <Layout>
                     <View1>
                       <Hints>
-                        <Table />
+                        <Table/>
                       </Hints>
                     </View1>
                   </Layout>
                 </Configuration>
                 <Annotation DisplayMode="0">
-                  <Name />
-                  <DefaultAnnotationText />
-                  <Left value="False" />
+                  <Name/>
+                  <DefaultAnnotationText/>
+                  <Left value="False"/>
                 </Annotation>
               </Properties>
-              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
             </Node>
           </ChildNodes>
         </Node>
         <Node ToolID="117">
           <GuiSettings>
-            <Position x="690" y="463" />
+            <Position x="690" y="463"/>
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration/>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Output9">
               <RecordInfo>
-                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64"/>
               </RecordInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings Macro="CountRecords.yxmc" />
+          <EngineSettings Macro="CountRecords.yxmc"/>
         </Node>
         <Node ToolID="118">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1362" y="546" />
+            <Position x="1362" y="546"/>
           </GuiSettings>
           <Properties>
             <Configuration>
-              <OrderChanged value="False" />
+              <OrderChanged value="False"/>
               <SelectFields>
-                <SelectField field="asdfasdfRecordIDasdfasdf" selected="False" />
-                <SelectField field="asdfasdfresultsasdfasdf" selected="True" rename="__asdfasdfasdf__" />
-                <SelectField field="Right_asdfasdfRecordIDasdfasdf" selected="False" />
-                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="asdfasdfRecordIDasdfasdf" selected="False"/>
+                <SelectField field="asdfasdfresultsasdfasdf" selected="True" rename="__asdfasdfasdf__"/>
+                <SelectField field="Right_asdfasdfRecordIDasdfasdf" selected="False"/>
+                <SelectField field="*Unknown" selected="True"/>
               </SelectFields>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                <Field name="Duration" source="TextInput:" type="Byte" />
-                <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                <Field name="Amount" source="TextInput:" type="Int16" />
-                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                <Field name="Length_Res" source="TextInput:" type="Byte" />
-                <Field name="Property" size="4" source="TextInput:" type="String" />
-                <Field name="Age" source="TextInput:" type="Byte" />
-                <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                <Field name="Dependents" source="TextInput:" type="Byte" />
-                <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                <Field name="Default" size="3" source="TextInput:" type="String" />
-                <Field name="Sample" size="10" source="TextInput:" type="String" />
-                <Field name="__asdfasdfasdf__" source="R-DATA:" type="Double" />
+                <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                <Field name="Duration" source="TextInput:" type="Byte"/>
+                <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                <Field name="Amount" source="TextInput:" type="Int16"/>
+                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                <Field name="Property" size="4" source="TextInput:" type="String"/>
+                <Field name="Age" source="TextInput:" type="Byte"/>
+                <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                <Field name="Dependents" source="TextInput:" type="Byte"/>
+                <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                <Field name="Default" size="3" source="TextInput:" type="String"/>
+                <Field name="Sample" size="10" source="TextInput:" type="String"/>
+                <Field name="__asdfasdfasdf__" source="R-DATA:" type="Double"/>
               </RecordInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
         </Node>
         <Node ToolID="125">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-            <Position x="714" y="570" />
+            <Position x="714" y="570"/>
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1281,359 +1268,359 @@ if (AlteryxFullUpdate) {
               <Position>0</Position>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32" />
-                <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                <Field name="Duration" source="TextInput:" type="Byte" />
-                <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                <Field name="Amount" source="TextInput:" type="Int16" />
-                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                <Field name="Length_Res" source="TextInput:" type="Byte" />
-                <Field name="Property" size="4" source="TextInput:" type="String" />
-                <Field name="Age" source="TextInput:" type="Byte" />
-                <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                <Field name="Dependents" source="TextInput:" type="Byte" />
-                <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                <Field name="Default" size="3" source="TextInput:" type="String" />
-                <Field name="Sample" size="10" source="TextInput:" type="String" />
+                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32"/>
+                <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                <Field name="Duration" source="TextInput:" type="Byte"/>
+                <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                <Field name="Amount" source="TextInput:" type="Int16"/>
+                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                <Field name="Property" size="4" source="TextInput:" type="String"/>
+                <Field name="Age" source="TextInput:" type="Byte"/>
+                <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                <Field name="Dependents" source="TextInput:" type="Byte"/>
+                <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                <Field name="Default" size="3" source="TextInput:" type="String"/>
+                <Field name="Sample" size="10" source="TextInput:" type="String"/>
               </RecordInfo>
               <SortInfo>
-                <Field field="asdfasdfRecordIDasdfasdf" order="Asc" />
+                <Field field="asdfasdfRecordIDasdfasdf" order="Asc"/>
               </SortInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID"/>
         </Node>
         <Node ToolID="126">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1242" y="726" />
+            <Position x="1242" y="726"/>
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
               <JoinInfo connection="Left">
-                <Field field="asdfasdfRecordIDasdfasdf" />
+                <Field field="asdfasdfRecordIDasdfasdf"/>
               </JoinInfo>
               <JoinInfo connection="Right">
-                <Field field="asdfasdfRecordIDasdfasdf" />
+                <Field field="asdfasdfRecordIDasdfasdf"/>
               </JoinInfo>
               <SelectConfiguration>
                 <Configuration outputConnection="Join">
-                  <OrderChanged value="False" />
+                  <OrderChanged value="False"/>
                   <SelectFields>
-                    <SelectField field="Right_asdfasdfRecordIDasdfasdf" selected="True" rename="Right_asdfasdfRecordIDasdfasdf" />
-                    <SelectField field="*Unknown" selected="True" />
+                    <SelectField field="Right_asdfasdfRecordIDasdfasdf" selected="True" rename="Right_asdfasdfRecordIDasdfasdf"/>
+                    <SelectField field="*Unknown" selected="True"/>
                   </SelectFields>
                 </Configuration>
               </SelectConfiguration>
             </Configuration>
             <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
             </Annotation>
             <MetaInfo connection="Left">
               <RecordInfo>
-                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32" />
-                <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                <Field name="Duration" source="TextInput:" type="Byte" />
-                <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                <Field name="Amount" source="TextInput:" type="Int16" />
-                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                <Field name="Length_Res" source="TextInput:" type="Byte" />
-                <Field name="Property" size="4" source="TextInput:" type="String" />
-                <Field name="Age" source="TextInput:" type="Byte" />
-                <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                <Field name="Dependents" source="TextInput:" type="Byte" />
-                <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                <Field name="Default" size="3" source="TextInput:" type="String" />
-                <Field name="Sample" size="10" source="TextInput:" type="String" />
+                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32"/>
+                <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                <Field name="Duration" source="TextInput:" type="Byte"/>
+                <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                <Field name="Amount" source="TextInput:" type="Int16"/>
+                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                <Field name="Property" size="4" source="TextInput:" type="String"/>
+                <Field name="Age" source="TextInput:" type="Byte"/>
+                <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                <Field name="Dependents" source="TextInput:" type="Byte"/>
+                <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                <Field name="Default" size="3" source="TextInput:" type="String"/>
+                <Field name="Sample" size="10" source="TextInput:" type="String"/>
               </RecordInfo>
               <SortInfo noProgress="True">
-                <Field field="asdfasdfRecordIDasdfasdf" />
+                <Field field="asdfasdfRecordIDasdfasdf"/>
               </SortInfo>
             </MetaInfo>
             <MetaInfo connection="Join">
               <RecordInfo>
-                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32" />
-                <Field name="Chk_Bal" size="3" source="TextInput:" type="String" />
-                <Field name="Duration" source="TextInput:" type="Byte" />
-                <Field name="Credit_Hist" size="3" source="TextInput:" type="String" />
-                <Field name="Purpose" size="3" source="TextInput:" type="String" />
-                <Field name="Amount" source="TextInput:" type="Int16" />
-                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String" />
-                <Field name="Employ_Length" size="3" source="TextInput:" type="String" />
-                <Field name="Debt_Inco" source="TextInput:" type="Byte" />
-                <Field name="Gender_Marital" size="3" source="TextInput:" type="String" />
-                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String" />
-                <Field name="Length_Res" source="TextInput:" type="Byte" />
-                <Field name="Property" size="4" source="TextInput:" type="String" />
-                <Field name="Age" source="TextInput:" type="Byte" />
-                <Field name="Otr_Install" size="4" source="TextInput:" type="String" />
-                <Field name="Tenure" size="4" source="TextInput:" type="String" />
-                <Field name="Num_Loans" source="TextInput:" type="Byte" />
-                <Field name="Job_Type" size="4" source="TextInput:" type="String" />
-                <Field name="Dependents" source="TextInput:" type="Byte" />
-                <Field name="Telephone" size="4" source="TextInput:" type="String" />
-                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String" />
-                <Field name="Default" size="3" source="TextInput:" type="String" />
-                <Field name="Sample" size="10" source="TextInput:" type="String" />
-                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double" />
-                <Field name="Right_asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32" />
+                <Field name="asdfasdfRecordIDasdfasdf" source="RecordID: Starting Value=1" type="Int32"/>
+                <Field name="Chk_Bal" size="3" source="TextInput:" type="String"/>
+                <Field name="Duration" source="TextInput:" type="Byte"/>
+                <Field name="Credit_Hist" size="3" source="TextInput:" type="String"/>
+                <Field name="Purpose" size="3" source="TextInput:" type="String"/>
+                <Field name="Amount" source="TextInput:" type="Int16"/>
+                <Field name="Savings_Bonds" size="3" source="TextInput:" type="String"/>
+                <Field name="Employ_Length" size="3" source="TextInput:" type="String"/>
+                <Field name="Debt_Inco" source="TextInput:" type="Byte"/>
+                <Field name="Gender_Marital" size="3" source="TextInput:" type="String"/>
+                <Field name="Debtor_Guarantor" size="4" source="TextInput:" type="String"/>
+                <Field name="Length_Res" source="TextInput:" type="Byte"/>
+                <Field name="Property" size="4" source="TextInput:" type="String"/>
+                <Field name="Age" source="TextInput:" type="Byte"/>
+                <Field name="Otr_Install" size="4" source="TextInput:" type="String"/>
+                <Field name="Tenure" size="4" source="TextInput:" type="String"/>
+                <Field name="Num_Loans" source="TextInput:" type="Byte"/>
+                <Field name="Job_Type" size="4" source="TextInput:" type="String"/>
+                <Field name="Dependents" source="TextInput:" type="Byte"/>
+                <Field name="Telephone" size="4" source="TextInput:" type="String"/>
+                <Field name="Foreign_Worker" size="4" source="TextInput:" type="String"/>
+                <Field name="Default" size="3" source="TextInput:" type="String"/>
+                <Field name="Sample" size="10" source="TextInput:" type="String"/>
+                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double"/>
+                <Field name="Right_asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32"/>
               </RecordInfo>
               <SortInfo>
-                <Field field="asdfasdfRecordIDasdfasdf" order="" />
+                <Field field="asdfasdfRecordIDasdfasdf" order=""/>
               </SortInfo>
             </MetaInfo>
             <MetaInfo connection="Right">
               <RecordInfo>
-                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double" />
-                <Field name="asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32" />
+                <Field name="asdfasdfresultsasdfasdf" source="R-DATA:" type="Double"/>
+                <Field name="asdfasdfRecordIDasdfasdf" source="R-DATA:" type="Int32"/>
               </RecordInfo>
               <SortInfo noProgress="True">
-                <Field field="asdfasdfRecordIDasdfasdf" />
+                <Field field="asdfasdfRecordIDasdfasdf"/>
               </SortInfo>
             </MetaInfo>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin"/>
         </Node>
       </ChildNodes>
     </Node>
   </Nodes>
   <Connections>
     <Connection name="#1">
-      <Origin ToolID="26" Connection="Question" />
-      <Destination ToolID="28" Connection="Question" />
+      <Origin ToolID="26" Connection="Question"/>
+      <Destination ToolID="28" Connection="Question"/>
     </Connection>
     <Connection name="#2" Wireless="True">
-      <Origin ToolID="28" Connection="Action" />
-      <Destination ToolID="25" Connection="Action" />
+      <Origin ToolID="28" Connection="Action"/>
+      <Destination ToolID="25" Connection="Action"/>
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="34" Connection="Question" />
-      <Destination ToolID="120" Connection="Question" />
+      <Origin ToolID="34" Connection="Question"/>
+      <Destination ToolID="120" Connection="Question"/>
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="75" Connection="Question" />
-      <Destination ToolID="80" Connection="Question" />
+      <Origin ToolID="75" Connection="Question"/>
+      <Destination ToolID="80" Connection="Question"/>
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="78" Connection="Question" />
-      <Destination ToolID="79" Connection="Question" />
+      <Origin ToolID="78" Connection="Question"/>
+      <Destination ToolID="79" Connection="Question"/>
     </Connection>
     <Connection name="#2" Wireless="True">
-      <Origin ToolID="79" Connection="Action" />
-      <Destination ToolID="72" Connection="Action" />
+      <Origin ToolID="79" Connection="Action"/>
+      <Destination ToolID="72" Connection="Action"/>
     </Connection>
     <Connection>
-      <Origin ToolID="70" Connection="Right" />
-      <Destination ToolID="72" Connection="Input" />
+      <Origin ToolID="70" Connection="Right"/>
+      <Destination ToolID="72" Connection="Input"/>
     </Connection>
     <Connection name="#2" Wireless="True">
-      <Origin ToolID="80" Connection="Action" />
-      <Destination ToolID="70" Connection="Action" />
+      <Origin ToolID="80" Connection="Action"/>
+      <Destination ToolID="70" Connection="Action"/>
     </Connection>
     <Connection>
-      <Origin ToolID="31" Connection="Output" />
-      <Destination ToolID="70" Connection="Input" />
+      <Origin ToolID="31" Connection="Output"/>
+      <Destination ToolID="70" Connection="Input"/>
     </Connection>
     <Connection name="#2" Wireless="True">
-      <Origin ToolID="120" Connection="Action" />
-      <Destination ToolID="118" Connection="Action" />
+      <Origin ToolID="120" Connection="Action"/>
+      <Destination ToolID="118" Connection="Action"/>
     </Connection>
     <Connection>
-      <Origin ToolID="126" Connection="Join" />
-      <Destination ToolID="118" Connection="Input" />
+      <Origin ToolID="126" Connection="Join"/>
+      <Destination ToolID="118" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="70" Connection="Left" />
-      <Destination ToolID="30" Connection="Input" />
+      <Origin ToolID="70" Connection="Left"/>
+      <Destination ToolID="30" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="30" Connection="Output" />
-      <Destination ToolID="74" Connection="Left" />
+      <Origin ToolID="30" Connection="Output"/>
+      <Destination ToolID="74" Connection="Left"/>
     </Connection>
     <Connection>
-      <Origin ToolID="73" Connection="Output" />
-      <Destination ToolID="74" Connection="Right" />
+      <Origin ToolID="73" Connection="Output"/>
+      <Destination ToolID="74" Connection="Right"/>
     </Connection>
     <Connection>
-      <Origin ToolID="72" Connection="Output" />
-      <Destination ToolID="73" Connection="Input" />
+      <Origin ToolID="72" Connection="Output"/>
+      <Destination ToolID="73" Connection="Input"/>
     </Connection>
     <Connection name="seed">
-      <Origin ToolID="74" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="74" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="sim">
-      <Origin ToolID="124" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="124" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="totalCountSim">
-      <Origin ToolID="116" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="116" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="model">
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="29" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="mult">
-      <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="25" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="valCount">
-      <Origin ToolID="117" Connection="Output9" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="117" Connection="Output9"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection name="validation">
-      <Origin ToolID="125" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="125" Connection="Output"/>
+      <Destination ToolID="87" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="74" Connection="Output" />
-      <Destination ToolID="83" Connection="Input" />
+      <Origin ToolID="74" Connection="Output"/>
+      <Destination ToolID="83" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="81" Connection="Output" />
-      <Destination ToolID="124" Connection="Input" />
+      <Origin ToolID="81" Connection="Output"/>
+      <Destination ToolID="124" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="124" Connection="Output" />
-      <Destination ToolID="126" Connection="Left" />
+      <Origin ToolID="124" Connection="Output"/>
+      <Destination ToolID="126" Connection="Left"/>
     </Connection>
     <Connection>
-      <Origin ToolID="87" Connection="Output1" />
-      <Destination ToolID="126" Connection="Right" />
+      <Origin ToolID="87" Connection="Output1"/>
+      <Destination ToolID="126" Connection="Right"/>
     </Connection>
     <Connection>
-      <Origin ToolID="82" Connection="Output" />
-      <Destination ToolID="39" Connection="Input" />
+      <Origin ToolID="82" Connection="Output"/>
+      <Destination ToolID="39" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="83" Connection="Output" />
-      <Destination ToolID="82" Connection="Source" />
+      <Origin ToolID="83" Connection="Output"/>
+      <Destination ToolID="82" Connection="Source"/>
     </Connection>
     <Connection>
-      <Origin ToolID="118" Connection="Output" />
-      <Destination ToolID="82" Connection="Targets" />
+      <Origin ToolID="118" Connection="Output"/>
+      <Destination ToolID="82" Connection="Targets"/>
     </Connection>
     <Connection>
-      <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="117" Connection="Input8" />
+      <Origin ToolID="4" Connection="Output"/>
+      <Destination ToolID="117" Connection="Input8"/>
     </Connection>
     <Connection>
-      <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="125" Connection="Input" />
+      <Origin ToolID="4" Connection="Output"/>
+      <Destination ToolID="125" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="31" Connection="Input" />
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="31" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="81" Connection="Input" />
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="81" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="116" Connection="Input" />
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="116" Connection="Input"/>
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="123" Connection="Input" />
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="123" Connection="Input"/>
     </Connection>
   </Connections>
   <Properties>
-    <Memory default="True" />
-    <GlobalRecordLimit value="0" />
-    <TempFiles default="True" />
-    <Annotation on="False" includeToolName="False" />
-    <ConvErrorLimit value="10" />
-    <ConvErrorLimit_Stop value="False" />
-    <CancelOnError value="False" />
-    <DisableBrowse value="False" />
-    <EnablePerformanceProfiling value="False" />
-    <DisableAllOutput value="False" />
-    <ShowAllMacroMessages value="False" />
-    <ShowConnectionStatusIsOn value="True" />
-    <ShowConnectionStatusOnlyWhenRunning value="True" />
-    <ZoomLevel value="0" />
+    <Memory default="True"/>
+    <GlobalRecordLimit value="0"/>
+    <TempFiles default="True"/>
+    <Annotation on="False" includeToolName="False"/>
+    <ConvErrorLimit value="10"/>
+    <ConvErrorLimit_Stop value="False"/>
+    <CancelOnError value="False"/>
+    <DisableBrowse value="False"/>
+    <EnablePerformanceProfiling value="False"/>
+    <DisableAllOutput value="False"/>
+    <ShowAllMacroMessages value="False"/>
+    <ShowConnectionStatusIsOn value="True"/>
+    <ShowConnectionStatusOnlyWhenRunning value="True"/>
+    <ZoomLevel value="0"/>
     <LayoutType>Horizontal</LayoutType>
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>numRecords</Name>
         <Value>256000</Value>
-        <IsNumeric value="True" />
+        <IsNumeric value="True"/>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>per.iter</Name>
         <Value>10</Value>
-        <IsNumeric value="True" />
+        <IsNumeric value="True"/>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>results.name</Name>
         <Value>Score</Value>
-        <IsNumeric value="False" />
+        <IsNumeric value="False"/>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>displaySeed</Name>
-        <Value />
-        <IsNumeric value="False" />
+        <Value/>
+        <IsNumeric value="False"/>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>seed</Name>
-        <Value />
-        <IsNumeric value="True" />
+        <Value/>
+        <IsNumeric value="True"/>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>isGLM</Name>
         <Value>True</Value>
-        <IsNumeric value="False" />
+        <IsNumeric value="False"/>
       </Constant>
     </Constants>
     <MetaInfo>
-      <NameIsFileName value="False" />
+      <NameIsFileName value="False"/>
       <Name>Simulation Scoring</Name>
       <Description>Sample from an approximation of a model object error distribution.</Description>
-      <RootToolName />
-      <ToolVersion />
-      <ToolInDb value="False" />
+      <RootToolName/>
+      <ToolVersion/>
+      <ToolInDb value="False"/>
       <CategoryName>Prescriptive</CategoryName>
-      <SearchTags />
+      <SearchTags/>
       <Author>Dylan Blanchard</Author>
       <Company>Alteryx, Inc.</Company>
       <Copyright>Alteryx, Inc.</Copyright>
-      <DescriptionLink actual="" displayed="" />
+      <DescriptionLink actual="" displayed=""/>
     </MetaInfo>
     <Events>
-      <Enabled value="True" />
+      <Enabled value="True"/>
     </Events>
     <RuntimeProperties>
       <Actions>
@@ -1643,43 +1630,43 @@ if (AlteryxFullUpdate) {
           <True>
             <Action>
               <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="28" />
+              <Description/>
+              <ToolId value="28"/>
               <Expression>{{INPUT}}</Expression>
               <Destination>25/Data/r[1]/c[1]</Destination>
               <Mapping>Update Cell</Mapping>
               <Mode>Expression</Mode>
               <DynamicConfiguration>row	1
 column	1</DynamicConfiguration>
-              <DefaultConfiguration value="True" />
+              <DefaultConfiguration value="True"/>
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="79" />
+              <Description/>
+              <ToolId value="79"/>
               <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="False" />
+              <Variable/>
+              <Replace value="False"/>
               <Destination>72/FormulaFields/FormulaField/@expression</Destination>
             </Action>
             <Action>
               <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="80" />
+              <Description/>
+              <ToolId value="80"/>
               <Expression>{{INPUT}}</Expression>
               <Destination>70/DetourRight/@value</Destination>
               <Mapping>Update Detour Direction from Question</Mapping>
               <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
+              <DynamicConfiguration/>
+              <DefaultConfiguration value="True"/>
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="120" />
+              <Description/>
+              <ToolId value="120"/>
               <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="False" />
+              <Variable/>
+              <Replace value="False"/>
               <Destination>118/SelectFields/SelectField[@field='asdfasdfresultsasdfasdf']/@rename</Destination>
             </Action>
           </True>
@@ -1690,117 +1677,117 @@ column	1</DynamicConfiguration>
           <Type>Tab</Type>
           <Description>Questions</Description>
           <Name>Tab (1)</Name>
-          <ToolId value="1" />
+          <ToolId value="1"/>
           <Questions>
             <Question>
               <Type>MacroInput</Type>
               <Description>Right Input</Description>
               <Name>model</Name>
-              <ToolId value="29" />
+              <ToolId value="29"/>
             </Question>
             <Question>
               <Type>MacroInput</Type>
               <Description>validation</Description>
               <Name>validation</Name>
-              <ToolId value="4" />
+              <ToolId value="4"/>
             </Question>
             <Question>
               <Type>MacroInput</Type>
               <Description>Macro Input (4)</Description>
               <Name>simulation</Name>
-              <ToolId value="7" />
+              <ToolId value="7"/>
             </Question>
             <Question>
               <Type>NumericUpDown</Type>
               <Description>The number of records to score at a time</Description>
               <Name>numRecords</Name>
-              <ToolId value="9" />
-              <Minimum value="1" />
-              <Maximum value="1000000000" />
-              <Increment value="1" />
-              <Default value="256000" />
-              <Decimals value="0" />
+              <ToolId value="9"/>
+              <Minimum value="1"/>
+              <Maximum value="1000000000"/>
+              <Increment value="1"/>
+              <Default value="256000"/>
+              <Decimals value="0"/>
             </Question>
             <Question>
               <Type>NumericUpDown</Type>
               <Description>How many samples from error distribution per iteration</Description>
               <Name>per.iter</Name>
-              <ToolId value="26" />
-              <Minimum value="1" />
-              <Maximum value="1000000" />
-              <Increment value="1" />
-              <Default value="1" />
-              <Decimals value="0" />
+              <ToolId value="26"/>
+              <Minimum value="1"/>
+              <Maximum value="1000000"/>
+              <Increment value="1"/>
+              <Default value="1"/>
+              <Decimals value="0"/>
             </Question>
             <Question>
               <Type>TextBox</Type>
               <Description>Name results of score simulation</Description>
               <Name>results.name</Name>
-              <ToolId value="34" />
+              <ToolId value="34"/>
               <Default>Score</Default>
-              <Password value="False" />
-              <Multiline value="False" />
-              <Hidden value="False" />
+              <Password value="False"/>
+              <Multiline value="False"/>
+              <Hidden value="False"/>
             </Question>
             <Question>
               <Type>MacroOutput</Type>
               <Description>Macro Output (39)</Description>
               <Name>Macro Output (39)</Name>
-              <ToolId value="39" />
+              <ToolId value="39"/>
             </Question>
             <Question>
               <Type>BooleanGroup</Type>
               <Description>Should set new seed?</Description>
               <Name>displaySeed</Name>
-              <ToolId value="75" />
-              <Questions />
-              <Default value="False" />
-              <Collapsable value="False" />
+              <ToolId value="75"/>
+              <Questions/>
+              <Default value="False"/>
+              <Collapsable value="False"/>
             </Question>
             <Question>
               <Type>NumericUpDown</Type>
               <Description>Set Random Seed</Description>
               <Name>seed</Name>
-              <ToolId value="78" />
-              <Minimum value="0" />
-              <Maximum value="100000000" />
-              <Increment value="1" />
-              <Default value="1" />
-              <Decimals value="0" />
+              <ToolId value="78"/>
+              <Minimum value="0"/>
+              <Maximum value="100000000"/>
+              <Increment value="1"/>
+              <Default value="1"/>
+              <Decimals value="0"/>
             </Question>
             <Question>
               <Type>BooleanGroup</Type>
               <Description>Model is GLM</Description>
               <Name>isGLM</Name>
-              <ToolId value="84" />
-              <Questions />
-              <Default value="False" />
-              <Collapsable value="False" />
+              <ToolId value="84"/>
+              <Questions/>
+              <Default value="False"/>
+              <Collapsable value="False"/>
             </Question>
           </Questions>
         </Question>
       </Questions>
       <ModuleType>Macro</ModuleType>
-      <MacroCustomHelp value="True" />
+      <MacroCustomHelp value="True"/>
       <MacroCustomHelpLink>Sim_Scoring.htm</MacroCustomHelpLink>
-      <MacroDynamicOutputFields value="False" />
+      <MacroDynamicOutputFields value="False"/>
       <MacroImage>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</MacroImage>
-      <MacroInputs />
-      <MacroOutputs />
-      <Wiz_CustomHelp value="False" />
-      <Wiz_CustomGraphic value="False" />
-      <Wiz_ShowOutput value="True" />
+      <MacroInputs/>
+      <MacroOutputs/>
+      <Wiz_CustomHelp value="False"/>
+      <Wiz_CustomGraphic value="False"/>
+      <Wiz_ShowOutput value="True"/>
       <Wiz_OpenOutputTools>
-        <Tool ToolId="39" Selected="True" />
-        <Tool ToolId="4" Selected="True" />
-        <Tool ToolId="29" Selected="True" />
-        <Tool ToolId="7" Selected="True" />
-        <Tool ToolId="123" Selected="False" />
-        <Tool ToolId="117" Selected="True" />
+        <Tool ToolId="39" Selected="True"/>
+        <Tool ToolId="4" Selected="True"/>
+        <Tool ToolId="29" Selected="True"/>
+        <Tool ToolId="7" Selected="True"/>
+        <Tool ToolId="123" Selected="False"/>
+        <Tool ToolId="117" Selected="True"/>
       </Wiz_OpenOutputTools>
-      <Wiz_OutputMessage />
-      <Wiz_NoOutputFilesMessage />
-      <Wiz_ChainRunWizard />
+      <Wiz_OutputMessage/>
+      <Wiz_NoOutputFilesMessage/>
+      <Wiz_ChainRunWizard/>
     </RuntimeProperties>
   </Properties>
 </AlteryxDocument>
